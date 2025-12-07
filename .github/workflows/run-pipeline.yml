@@ -38,6 +38,7 @@ jobs:
           mkdir -p website-repo/public/projects/weather-alerts
           cp data/regions_daily.json website-repo/public/projects/weather-alerts/regions_daily.json
           cp data/alerts.json        website-repo/public/projects/weather-alerts/alerts.json
+          cp data/region_points_admin1.json website-repo/public/projects/weather-alerts/region_points_admin1.json
 
       - name: Commit and push updated JSON
         working-directory: website-repo
@@ -46,7 +47,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add public/projects/weather-alerts/regions_daily.json public/projects/weather-alerts/alerts.json
+          git add public/projects/weather-alerts/regions_daily.json \
+                 public/projects/weather-alerts/alerts.json \
+                 public/projects/weather-alerts/region_points_admin1.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
