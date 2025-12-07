@@ -52,8 +52,11 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git -c user.name="github-actions[bot]" -c user.email="actions@github.com" \
-            commit -m "Update weather alerts JSON from pipeline"
+          GIT_AUTHOR_NAME="weather-pipeline-bot" \
+          GIT_AUTHOR_EMAIL="bot@example.com" \
+          GIT_COMMITTER_NAME="weather-pipeline-bot" \
+          GIT_COMMITTER_EMAIL="bot@example.com" \
+          git commit -m "Update weather alerts JSON from pipeline"
           git remote set-url origin \
             https://x-access-token:${WEBSITE_REPO_TOKEN}@github.com/gaetanfichetdc/website.git
           git push origin main
