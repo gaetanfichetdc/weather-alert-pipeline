@@ -17,7 +17,7 @@ def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
         "longitude": pt["lon"],
         "daily": "temperature_2m_max,temperature_2m_min,wind_speed_10m_max,precipitation_sum",
         "timezone": "Europe/Berlin",
-        "past_days": 30,
+        "past_days": 90,
         "forecast_days": 1,
     }
 
