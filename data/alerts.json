@@ -1,0 +1,1422 @@
+[
+  {
+    "country": "FR",
+    "region_code": "FR-11",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -3.3
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-11",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-19",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 20.7
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-11",
+    "hazard": "rain",
+    "start_date": "2025-11-23",
+    "end_date": "2025-11-23",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 41.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-11",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 33.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-44",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 2,
+    "min_tmin_c": -5.0
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-44",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 26.0
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-32",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -2.4
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-32",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-20",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 43.7
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-32",
+    "hazard": "rain",
+    "start_date": "2025-11-23",
+    "end_date": "2025-11-24",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 26.3
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-32",
+    "hazard": "rain",
+    "start_date": "2025-12-06",
+    "end_date": "2025-12-07",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 34.2
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-84",
+    "hazard": "cold",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-23",
+    "n_days": 6,
+    "max_level": 1,
+    "min_tmin_c": -3.7
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-84",
+    "hazard": "rain",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-16",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 51.0
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-84",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-25",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 37.1
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-84",
+    "hazard": "rain",
+    "start_date": "2025-12-03",
+    "end_date": "2025-12-03",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 37.7
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-93",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 27.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-93",
+    "hazard": "rain",
+    "start_date": "2025-12-03",
+    "end_date": "2025-12-04",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 93.8
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-11-10",
+    "end_date": "2025-11-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 33.1
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-20",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 34.800000000000004
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-11-22",
+    "end_date": "2025-11-23",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 41.5
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-11-29",
+    "end_date": "2025-11-29",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 26.6
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-01",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 32.199999999999996
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-05",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 58.6
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-53",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 36.800000000000004
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-75",
+    "hazard": "cold",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-23",
+    "n_days": 6,
+    "max_level": 1,
+    "min_tmin_c": -3.4
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-75",
+    "hazard": "rain",
+    "start_date": "2025-11-08",
+    "end_date": "2025-11-08",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 24.3
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-75",
+    "hazard": "rain",
+    "start_date": "2025-11-23",
+    "end_date": "2025-11-24",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 52.6
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-75",
+    "hazard": "rain",
+    "start_date": "2025-11-30",
+    "end_date": "2025-11-30",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 21.0
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-75",
+    "hazard": "rain",
+    "start_date": "2025-12-02",
+    "end_date": "2025-12-02",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 24.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-75",
+    "hazard": "rain",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-04",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 20.8
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-24",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-23",
+    "n_days": 4,
+    "max_level": 1,
+    "min_tmin_c": -3.8
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-24",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-15",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 26.1
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-24",
+    "hazard": "rain",
+    "start_date": "2025-11-23",
+    "end_date": "2025-11-23",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 46.2
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-24",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 33.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "cold",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-19",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -2.0
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 2,
+    "min_tmin_c": -7.2
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "cold",
+    "start_date": "2025-11-27",
+    "end_date": "2025-11-28",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -1.4
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "cold",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-02",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -2.6
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "rain",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-16",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 71.3
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-25",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 73.7
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "rain",
+    "start_date": "2025-11-30",
+    "end_date": "2025-11-30",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 25.6
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-27",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 3,
+    "max_rain_mm": 62.3
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-52",
+    "hazard": "rain",
+    "start_date": "2025-11-23",
+    "end_date": "2025-11-23",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 25.0
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-52",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 21.7
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-28",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-22",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -2.2
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-28",
+    "hazard": "rain",
+    "start_date": "2025-11-10",
+    "end_date": "2025-11-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 25.8
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-28",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-19",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 32.099999999999994
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-28",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 23.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-76",
+    "hazard": "rain",
+    "start_date": "2025-11-08",
+    "end_date": "2025-11-08",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 32.8
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-76",
+    "hazard": "rain",
+    "start_date": "2025-12-02",
+    "end_date": "2025-12-03",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 65.6
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-94",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-07",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 43.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-94",
+    "hazard": "rain",
+    "start_date": "2025-11-17",
+    "end_date": "2025-11-17",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 34.9
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-94",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-25",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 42.2
+  },
+  {
+    "country": "FR",
+    "region_code": "FR-94",
+    "hazard": "rain",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-04",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 47.4
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-51",
+    "hazard": "rain",
+    "start_date": "2025-11-13",
+    "end_date": "2025-11-15",
+    "n_days": 3,
+    "max_level": 3,
+    "max_rain_mm": 94.5
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-51",
+    "hazard": "rain",
+    "start_date": "2025-11-17",
+    "end_date": "2025-11-17",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 23.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-57",
+    "hazard": "rain",
+    "start_date": "2025-11-13",
+    "end_date": "2025-11-16",
+    "n_days": 4,
+    "max_level": 3,
+    "max_rain_mm": 63.4
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-54",
+    "hazard": "cold",
+    "start_date": "2025-11-27",
+    "end_date": "2025-11-29",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -2.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-54",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 28.400000000000002
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-54",
+    "hazard": "rain",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-15",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 31.4
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-07",
+    "hazard": "rain",
+    "start_date": "2025-11-16",
+    "end_date": "2025-11-16",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 28.9
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-ML",
+    "hazard": "wind",
+    "start_date": "2025-12-03",
+    "end_date": "2025-12-03",
+    "n_days": 1,
+    "max_level": 1,
+    "max_wind_max_kmh": 52.7
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-ML",
+    "hazard": "rain",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-18",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 24.5
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-59",
+    "hazard": "rain",
+    "start_date": "2025-11-08",
+    "end_date": "2025-11-08",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 30.9
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-59",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-21",
+    "n_days": 3,
+    "max_level": 3,
+    "max_rain_mm": 75.5
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-59",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-26",
+    "n_days": 3,
+    "max_level": 3,
+    "max_rain_mm": 63.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-59",
+    "hazard": "rain",
+    "start_date": "2025-11-30",
+    "end_date": "2025-11-30",
+    "n_days": 1,
+    "max_level": 3,
+    "max_rain_mm": 79.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-59",
+    "hazard": "rain",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-05",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 52.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-55",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-22",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -4.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-55",
+    "hazard": "cold",
+    "start_date": "2025-11-26",
+    "end_date": "2025-11-29",
+    "n_days": 4,
+    "max_level": 1,
+    "min_tmin_c": -2.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-55",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-15",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 38.4
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-58",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 38.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-58",
+    "hazard": "rain",
+    "start_date": "2025-11-12",
+    "end_date": "2025-11-16",
+    "n_days": 5,
+    "max_level": 3,
+    "max_rain_mm": 68.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-58",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-24",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 54.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-58",
+    "hazard": "rain",
+    "start_date": "2025-11-29",
+    "end_date": "2025-11-29",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 49.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-58",
+    "hazard": "rain",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-02",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 51.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-58",
+    "hazard": "rain",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-05",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 33.7
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-29",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 35.3
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-29",
+    "hazard": "rain",
+    "start_date": "2025-11-13",
+    "end_date": "2025-11-15",
+    "n_days": 3,
+    "max_level": 2,
+    "max_rain_mm": 43.8
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-32",
+    "hazard": "rain",
+    "start_date": "2025-11-08",
+    "end_date": "2025-11-08",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 29.4
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-32",
+    "hazard": "rain",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-21",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 41.0
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-32",
+    "hazard": "rain",
+    "start_date": "2025-11-25",
+    "end_date": "2025-11-25",
+    "n_days": 1,
+    "max_level": 3,
+    "max_rain_mm": 70.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-32",
+    "hazard": "rain",
+    "start_date": "2025-12-05",
+    "end_date": "2025-12-05",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 27.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-39",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-08",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 44.2
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-39",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-20",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 75.8
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-39",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-25",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 80.0
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-39",
+    "hazard": "rain",
+    "start_date": "2025-11-30",
+    "end_date": "2025-11-30",
+    "n_days": 1,
+    "max_level": 3,
+    "max_rain_mm": 64.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-39",
+    "hazard": "rain",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-05",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 75.4
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-34",
+    "hazard": "rain",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-07",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 47.0
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-34",
+    "hazard": "rain",
+    "start_date": "2025-11-17",
+    "end_date": "2025-11-17",
+    "n_days": 1,
+    "max_level": 3,
+    "max_rain_mm": 77.7
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-34",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-21",
+    "n_days": 3,
+    "max_level": 2,
+    "max_rain_mm": 50.1
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-34",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-25",
+    "n_days": 2,
+    "max_level": 3,
+    "max_rain_mm": 65.0
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-34",
+    "hazard": "rain",
+    "start_date": "2025-11-29",
+    "end_date": "2025-11-30",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 59.7
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-34",
+    "hazard": "rain",
+    "start_date": "2025-12-03",
+    "end_date": "2025-12-05",
+    "n_days": 3,
+    "max_level": 3,
+    "max_rain_mm": 74.9
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-27",
+    "hazard": "rain",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-21",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 22.5
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-13",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "n_days": 5,
+    "max_level": 2,
+    "min_tmin_c": -6.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-13",
+    "hazard": "cold",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-06",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -2.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-13",
+    "hazard": "rain",
+    "start_date": "2025-11-17",
+    "end_date": "2025-11-17",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 22.200000000000003
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-08",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-24",
+    "n_days": 4,
+    "max_level": 2,
+    "min_tmin_c": -5.5
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-08",
+    "hazard": "cold",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-02",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -1.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-08",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 23.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-07",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -2.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-07",
+    "hazard": "rain",
+    "start_date": "2025-12-07",
+    "end_date": "2025-12-07",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 23.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-11",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-26",
+    "n_days": 7,
+    "max_level": 2,
+    "min_tmin_c": -8.3
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-11",
+    "hazard": "rain",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-15",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 35.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-02",
+    "hazard": "cold",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-24",
+    "n_days": 7,
+    "max_level": 2,
+    "min_tmin_c": -9.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-02",
+    "hazard": "cold",
+    "start_date": "2025-11-27",
+    "end_date": "2025-11-28",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -4.2
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-02",
+    "hazard": "cold",
+    "start_date": "2025-12-03",
+    "end_date": "2025-12-04",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -1.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-02",
+    "hazard": "rain",
+    "start_date": "2025-11-17",
+    "end_date": "2025-11-17",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 23.3
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-02",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-24",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 55.3
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-14",
+    "hazard": "cold",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-08",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -0.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-14",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "n_days": 5,
+    "max_level": 2,
+    "min_tmin_c": -5.2
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-14",
+    "hazard": "cold",
+    "start_date": "2025-12-04",
+    "end_date": "2025-12-05",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -0.2
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-14",
+    "hazard": "rain",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-15",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 23.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-16",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "n_days": 5,
+    "max_level": 1,
+    "min_tmin_c": -4.1
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-16",
+    "hazard": "rain",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-15",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 46.2
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-06",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-23",
+    "n_days": 4,
+    "max_level": 2,
+    "min_tmin_c": -5.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-06",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-15",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 38.9
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-05",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "n_days": 5,
+    "max_level": 2,
+    "min_tmin_c": -5.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-12",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "n_days": 5,
+    "max_level": 1,
+    "min_tmin_c": -3.9
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-12",
+    "hazard": "cold",
+    "start_date": "2025-11-26",
+    "end_date": "2025-11-27",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -0.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-12",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-14",
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 42.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-12",
+    "hazard": "rain",
+    "start_date": "2025-11-16",
+    "end_date": "2025-11-16",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 27.1
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-04",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-24",
+    "n_days": 5,
+    "max_level": 1,
+    "min_tmin_c": -3.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-04",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-15",
+    "n_days": 2,
+    "max_level": 2,
+    "max_rain_mm": 43.3
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-04",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-19",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 27.7
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-01",
+    "hazard": "cold",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-19",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -2.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-01",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 2,
+    "min_tmin_c": -6.7
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-01",
+    "hazard": "cold",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-04",
+    "n_days": 4,
+    "max_level": 1,
+    "min_tmin_c": -1.8
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-15",
+    "hazard": "cold",
+    "start_date": "2025-11-07",
+    "end_date": "2025-11-08",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -1.2
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-15",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-25",
+    "n_days": 6,
+    "max_level": 2,
+    "min_tmin_c": -9.2
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-15",
+    "hazard": "cold",
+    "start_date": "2025-12-03",
+    "end_date": "2025-12-05",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -1.1
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-10",
+    "hazard": "cold",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-24",
+    "n_days": 6,
+    "max_level": 1,
+    "min_tmin_c": -3.5
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-10",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-14",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 24.599999999999998
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-10",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-19",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 28.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-10",
+    "hazard": "rain",
+    "start_date": "2025-11-24",
+    "end_date": "2025-11-24",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 20.4
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-09",
+    "hazard": "cold",
+    "start_date": "2025-11-17",
+    "end_date": "2025-11-19",
+    "n_days": 3,
+    "max_level": 1,
+    "min_tmin_c": -4.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-09",
+    "hazard": "cold",
+    "start_date": "2025-11-21",
+    "end_date": "2025-11-23",
+    "n_days": 3,
+    "max_level": 2,
+    "min_tmin_c": -7.6
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-09",
+    "hazard": "cold",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-02",
+    "n_days": 2,
+    "max_level": 1,
+    "min_tmin_c": -1.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-09",
+    "hazard": "rain",
+    "start_date": "2025-12-06",
+    "end_date": "2025-12-07",
+    "n_days": 2,
+    "max_level": 1,
+    "max_rain_mm": 35.7
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-03",
+    "hazard": "cold",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-23",
+    "n_days": 4,
+    "max_level": 2,
+    "min_tmin_c": -5.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-03",
+    "hazard": "rain",
+    "start_date": "2025-11-14",
+    "end_date": "2025-11-14",
+    "n_days": 1,
+    "max_level": 3,
+    "max_rain_mm": 61.0
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-03",
+    "hazard": "rain",
+    "start_date": "2025-11-19",
+    "end_date": "2025-11-19",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 27.200000000000003
+  }
+]

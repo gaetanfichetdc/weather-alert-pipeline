@@ -1,0 +1,1244 @@
+[
+  {
+    "country": "FR",
+    "region_id": "11",
+    "region_code": "FR-11",
+    "city": "Paris",
+    "lat": 48.85341,
+    "lon": 2.3488,
+    "population": 2138551
+  },
+  {
+    "country": "FR",
+    "region_id": "11",
+    "region_code": "FR-11",
+    "city": "Marne La Vallée",
+    "lat": 48.83584,
+    "lon": 2.64241,
+    "population": 318325
+  },
+  {
+    "country": "FR",
+    "region_id": "11",
+    "region_code": "FR-11",
+    "city": "Cergy-Pontoise",
+    "lat": 49.03894,
+    "lon": 2.07805,
+    "population": 183430
+  },
+  {
+    "country": "FR",
+    "region_id": "44",
+    "region_code": "FR-44",
+    "city": "Strasbourg",
+    "lat": 48.58392,
+    "lon": 7.74553,
+    "population": 274845
+  },
+  {
+    "country": "FR",
+    "region_id": "44",
+    "region_code": "FR-44",
+    "city": "Reims",
+    "lat": 49.26526,
+    "lon": 4.02853,
+    "population": 196565
+  },
+  {
+    "country": "FR",
+    "region_id": "44",
+    "region_code": "FR-44",
+    "city": "Metz",
+    "lat": 49.11911,
+    "lon": 6.17269,
+    "population": 123914
+  },
+  {
+    "country": "FR",
+    "region_id": "32",
+    "region_code": "FR-32",
+    "city": "Lille",
+    "lat": 50.63297,
+    "lon": 3.05858,
+    "population": 234475
+  },
+  {
+    "country": "FR",
+    "region_id": "32",
+    "region_code": "FR-32",
+    "city": "Amiens",
+    "lat": 49.9,
+    "lon": 2.3,
+    "population": 143086
+  },
+  {
+    "country": "FR",
+    "region_id": "32",
+    "region_code": "FR-32",
+    "city": "Roubaix",
+    "lat": 50.69421,
+    "lon": 3.17456,
+    "population": 98828
+  },
+  {
+    "country": "FR",
+    "region_id": "84",
+    "region_code": "FR-84",
+    "city": "Lyon",
+    "lat": 45.74846,
+    "lon": 4.84671,
+    "population": 522969
+  },
+  {
+    "country": "FR",
+    "region_id": "84",
+    "region_code": "FR-84",
+    "city": "Saint-Étienne",
+    "lat": 45.43389,
+    "lon": 4.39,
+    "population": 176280
+  },
+  {
+    "country": "FR",
+    "region_id": "84",
+    "region_code": "FR-84",
+    "city": "Grenoble",
+    "lat": 45.17869,
+    "lon": 5.71479,
+    "population": 158552
+  },
+  {
+    "country": "FR",
+    "region_id": "93",
+    "region_code": "FR-93",
+    "city": "Marseille",
+    "lat": 43.29695,
+    "lon": 5.38107,
+    "population": 870731
+  },
+  {
+    "country": "FR",
+    "region_id": "93",
+    "region_code": "FR-93",
+    "city": "Nice",
+    "lat": 43.70313,
+    "lon": 7.26608,
+    "population": 342669
+  },
+  {
+    "country": "FR",
+    "region_id": "93",
+    "region_code": "FR-93",
+    "city": "Toulon",
+    "lat": 43.12442,
+    "lon": 5.92836,
+    "population": 168701
+  },
+  {
+    "country": "FR",
+    "region_id": "53",
+    "region_code": "FR-53",
+    "city": "Rennes",
+    "lat": 48.11198,
+    "lon": -1.67429,
+    "population": 220488
+  },
+  {
+    "country": "FR",
+    "region_id": "53",
+    "region_code": "FR-53",
+    "city": "Brest",
+    "lat": 48.39029,
+    "lon": -4.48628,
+    "population": 144899
+  },
+  {
+    "country": "FR",
+    "region_id": "53",
+    "region_code": "FR-53",
+    "city": "Quimper",
+    "lat": 47.99597,
+    "lon": -4.09795,
+    "population": 63849
+  },
+  {
+    "country": "FR",
+    "region_id": "75",
+    "region_code": "FR-75",
+    "city": "Bordeaux",
+    "lat": 44.84044,
+    "lon": -0.5805,
+    "population": 260958
+  },
+  {
+    "country": "FR",
+    "region_id": "75",
+    "region_code": "FR-75",
+    "city": "Limoges",
+    "lat": 45.83362,
+    "lon": 1.24759,
+    "population": 141176
+  },
+  {
+    "country": "FR",
+    "region_id": "75",
+    "region_code": "FR-75",
+    "city": "Poitiers",
+    "lat": 46.58261,
+    "lon": 0.34348,
+    "population": 85960
+  },
+  {
+    "country": "FR",
+    "region_id": "24",
+    "region_code": "FR-24",
+    "city": "Tours",
+    "lat": 47.39484,
+    "lon": 0.70398,
+    "population": 141621
+  },
+  {
+    "country": "FR",
+    "region_id": "24",
+    "region_code": "FR-24",
+    "city": "Orléans",
+    "lat": 47.90289,
+    "lon": 1.90389,
+    "population": 116269
+  },
+  {
+    "country": "FR",
+    "region_id": "24",
+    "region_code": "FR-24",
+    "city": "Bourges",
+    "lat": 47.08333,
+    "lon": 2.4,
+    "population": 67987
+  },
+  {
+    "country": "FR",
+    "region_id": "27",
+    "region_code": "FR-27",
+    "city": "Dijon",
+    "lat": 47.31667,
+    "lon": 5.01667,
+    "population": 158002
+  },
+  {
+    "country": "FR",
+    "region_id": "27",
+    "region_code": "FR-27",
+    "city": "Besançon",
+    "lat": 47.24878,
+    "lon": 6.01815,
+    "population": 128426
+  },
+  {
+    "country": "FR",
+    "region_id": "27",
+    "region_code": "FR-27",
+    "city": "Belfort",
+    "lat": 47.64218,
+    "lon": 6.85385,
+    "population": 54562
+  },
+  {
+    "country": "FR",
+    "region_id": "52",
+    "region_code": "FR-52",
+    "city": "Nantes",
+    "lat": 47.21725,
+    "lon": -1.55336,
+    "population": 318808
+  },
+  {
+    "country": "FR",
+    "region_id": "52",
+    "region_code": "FR-52",
+    "city": "Angers",
+    "lat": 47.47156,
+    "lon": -0.55202,
+    "population": 168279
+  },
+  {
+    "country": "FR",
+    "region_id": "52",
+    "region_code": "FR-52",
+    "city": "Le Mans",
+    "lat": 48.0021,
+    "lon": 0.20251,
+    "population": 144515
+  },
+  {
+    "country": "FR",
+    "region_id": "28",
+    "region_code": "FR-28",
+    "city": "Rouen",
+    "lat": 49.44313,
+    "lon": 1.09932,
+    "population": 234475
+  },
+  {
+    "country": "FR",
+    "region_id": "28",
+    "region_code": "FR-28",
+    "city": "Le Havre",
+    "lat": 49.49346,
+    "lon": 0.10785,
+    "population": 185972
+  },
+  {
+    "country": "FR",
+    "region_id": "28",
+    "region_code": "FR-28",
+    "city": "Caen",
+    "lat": 49.18585,
+    "lon": -0.35912,
+    "population": 110624
+  },
+  {
+    "country": "FR",
+    "region_id": "76",
+    "region_code": "FR-76",
+    "city": "Toulouse",
+    "lat": 43.60426,
+    "lon": 1.44367,
+    "population": 493465
+  },
+  {
+    "country": "FR",
+    "region_id": "76",
+    "region_code": "FR-76",
+    "city": "Montpellier",
+    "lat": 43.61093,
+    "lon": 3.87635,
+    "population": 248252
+  },
+  {
+    "country": "FR",
+    "region_id": "76",
+    "region_code": "FR-76",
+    "city": "Nîmes",
+    "lat": 43.83665,
+    "lon": 4.35788,
+    "population": 148236
+  },
+  {
+    "country": "FR",
+    "region_id": "94",
+    "region_code": "FR-94",
+    "city": "Ajaccio",
+    "lat": 41.91886,
+    "lon": 8.73812,
+    "population": 54364
+  },
+  {
+    "country": "FR",
+    "region_id": "94",
+    "region_code": "FR-94",
+    "city": "Bastia",
+    "lat": 42.70219,
+    "lon": 9.45123,
+    "population": 41001
+  },
+  {
+    "country": "ES",
+    "region_id": "51",
+    "region_code": "ES-51",
+    "city": "Sevilla",
+    "lat": 37.38283,
+    "lon": -5.97317,
+    "population": 687488
+  },
+  {
+    "country": "ES",
+    "region_id": "51",
+    "region_code": "ES-51",
+    "city": "Málaga",
+    "lat": 36.72016,
+    "lon": -4.42034,
+    "population": 591637
+  },
+  {
+    "country": "ES",
+    "region_id": "51",
+    "region_code": "ES-51",
+    "city": "Córdoba",
+    "lat": 37.89155,
+    "lon": -4.77275,
+    "population": 325708
+  },
+  {
+    "country": "ES",
+    "region_id": "57",
+    "region_code": "ES-57",
+    "city": "Badajoz",
+    "lat": 38.87789,
+    "lon": -6.97061,
+    "population": 150530
+  },
+  {
+    "country": "ES",
+    "region_id": "57",
+    "region_code": "ES-57",
+    "city": "Cáceres",
+    "lat": 39.47649,
+    "lon": -6.37224,
+    "population": 96068
+  },
+  {
+    "country": "ES",
+    "region_id": "57",
+    "region_code": "ES-57",
+    "city": "Mérida",
+    "lat": 38.91611,
+    "lon": -6.34366,
+    "population": 59352
+  },
+  {
+    "country": "ES",
+    "region_id": "31",
+    "region_code": "ES-31",
+    "city": "Murcia",
+    "lat": 37.98704,
+    "lon": -1.13004,
+    "population": 460349
+  },
+  {
+    "country": "ES",
+    "region_id": "31",
+    "region_code": "ES-31",
+    "city": "Cartagena",
+    "lat": 37.60197,
+    "lon": -0.98397,
+    "population": 213943
+  },
+  {
+    "country": "ES",
+    "region_id": "31",
+    "region_code": "ES-31",
+    "city": "Lorca",
+    "lat": 37.67119,
+    "lon": -1.7017,
+    "population": 93079
+  },
+  {
+    "country": "ES",
+    "region_id": "53",
+    "region_code": "ES-53",
+    "city": "Las Palmas de Gran Canaria",
+    "lat": 28.09973,
+    "lon": -15.41343,
+    "population": 378517
+  },
+  {
+    "country": "ES",
+    "region_id": "53",
+    "region_code": "ES-53",
+    "city": "Santa Cruz de Tenerife",
+    "lat": 28.46824,
+    "lon": -16.25462,
+    "population": 211436
+  },
+  {
+    "country": "ES",
+    "region_id": "53",
+    "region_code": "ES-53",
+    "city": "La Laguna",
+    "lat": 28.4853,
+    "lon": -16.32014,
+    "population": 150661
+  },
+  {
+    "country": "ES",
+    "region_id": "60",
+    "region_code": "ES-60",
+    "city": "Valencia",
+    "lat": 39.47391,
+    "lon": -0.37966,
+    "population": 825948
+  },
+  {
+    "country": "ES",
+    "region_id": "60",
+    "region_code": "ES-60",
+    "city": "Alicante",
+    "lat": 38.34517,
+    "lon": -0.48149,
+    "population": 348901
+  },
+  {
+    "country": "ES",
+    "region_id": "60",
+    "region_code": "ES-60",
+    "city": "Elche",
+    "lat": 38.26218,
+    "lon": -0.70107,
+    "population": 234765
+  },
+  {
+    "country": "ES",
+    "region_id": "54",
+    "region_code": "ES-54",
+    "city": "Albacete",
+    "lat": 38.99424,
+    "lon": -1.85643,
+    "population": 173050
+  },
+  {
+    "country": "ES",
+    "region_id": "54",
+    "region_code": "ES-54",
+    "city": "Guadalajara",
+    "lat": 40.62862,
+    "lon": -3.16185,
+    "population": 93470
+  },
+  {
+    "country": "ES",
+    "region_id": "54",
+    "region_code": "ES-54",
+    "city": "Talavera de la Reina",
+    "lat": 39.96348,
+    "lon": -4.83076,
+    "population": 88856
+  },
+  {
+    "country": "ES",
+    "region_id": "07",
+    "region_code": "ES-07",
+    "city": "Palma",
+    "lat": 39.56939,
+    "lon": 2.65024,
+    "population": 409661
+  },
+  {
+    "country": "ES",
+    "region_id": "07",
+    "region_code": "ES-07",
+    "city": "Calvià",
+    "lat": 39.5657,
+    "lon": 2.50621,
+    "population": 51774
+  },
+  {
+    "country": "ES",
+    "region_id": "07",
+    "region_code": "ES-07",
+    "city": "Ibiza",
+    "lat": 38.90883,
+    "lon": 1.43296,
+    "population": 49727
+  },
+  {
+    "country": "ES",
+    "region_id": "ML",
+    "region_code": "ES-ML",
+    "city": "Melilla",
+    "lat": 35.29369,
+    "lon": -2.93833,
+    "population": 85985
+  },
+  {
+    "country": "ES",
+    "region_id": "59",
+    "region_code": "ES-59",
+    "city": "Bilbao",
+    "lat": 43.26271,
+    "lon": -2.92528,
+    "population": 347342
+  },
+  {
+    "country": "ES",
+    "region_id": "59",
+    "region_code": "ES-59",
+    "city": "Gasteiz / Vitoria",
+    "lat": 42.84998,
+    "lon": -2.67268,
+    "population": 249176
+  },
+  {
+    "country": "ES",
+    "region_id": "59",
+    "region_code": "ES-59",
+    "city": "Donostia / San Sebastián",
+    "lat": 43.31283,
+    "lon": -1.97499,
+    "population": 185357
+  },
+  {
+    "country": "ES",
+    "region_id": "52",
+    "region_code": "ES-52",
+    "city": "Zaragoza",
+    "lat": 41.65606,
+    "lon": -0.87734,
+    "population": 686986
+  },
+  {
+    "country": "ES",
+    "region_id": "52",
+    "region_code": "ES-52",
+    "city": "Delicias",
+    "lat": 41.64928,
+    "lon": -0.90757,
+    "population": 110520
+  },
+  {
+    "country": "ES",
+    "region_id": "52",
+    "region_code": "ES-52",
+    "city": "Huesca",
+    "lat": 42.13615,
+    "lon": -0.4087,
+    "population": 53956
+  },
+  {
+    "country": "ES",
+    "region_id": "55",
+    "region_code": "ES-55",
+    "city": "Valladolid",
+    "lat": 41.65518,
+    "lon": -4.72372,
+    "population": 300618
+  },
+  {
+    "country": "ES",
+    "region_id": "55",
+    "region_code": "ES-55",
+    "city": "Burgos",
+    "lat": 42.34106,
+    "lon": -3.70184,
+    "population": 176418
+  },
+  {
+    "country": "ES",
+    "region_id": "55",
+    "region_code": "ES-55",
+    "city": "Salamanca",
+    "lat": 40.96882,
+    "lon": -5.66388,
+    "population": 144825
+  },
+  {
+    "country": "ES",
+    "region_id": "58",
+    "region_code": "ES-58",
+    "city": "Vigo",
+    "lat": 42.23282,
+    "lon": -8.72264,
+    "population": 293642
+  },
+  {
+    "country": "ES",
+    "region_id": "58",
+    "region_code": "ES-58",
+    "city": "A Coruña",
+    "lat": 43.37135,
+    "lon": -8.396,
+    "population": 250438
+  },
+  {
+    "country": "ES",
+    "region_id": "58",
+    "region_code": "ES-58",
+    "city": "Ourense",
+    "lat": 42.33669,
+    "lon": -7.86407,
+    "population": 105233
+  },
+  {
+    "country": "ES",
+    "region_id": "29",
+    "region_code": "ES-29",
+    "city": "Madrid",
+    "lat": 40.4165,
+    "lon": -3.70256,
+    "population": 3255944
+  },
+  {
+    "country": "ES",
+    "region_id": "29",
+    "region_code": "ES-29",
+    "city": "Latina",
+    "lat": 40.38897,
+    "lon": -3.74569,
+    "population": 256644
+  },
+  {
+    "country": "ES",
+    "region_id": "29",
+    "region_code": "ES-29",
+    "city": "Carabanchel",
+    "lat": 40.39094,
+    "lon": -3.7242,
+    "population": 253678
+  },
+  {
+    "country": "ES",
+    "region_id": "56",
+    "region_code": "ES-56",
+    "city": "Barcelona",
+    "lat": 41.38879,
+    "lon": 2.15899,
+    "population": 1620343
+  },
+  {
+    "country": "ES",
+    "region_id": "56",
+    "region_code": "ES-56",
+    "city": "Eixample",
+    "lat": 41.38896,
+    "lon": 2.16179,
+    "population": 266477
+  },
+  {
+    "country": "ES",
+    "region_id": "56",
+    "region_code": "ES-56",
+    "city": "L'Hospitalet de Llobregat",
+    "lat": 41.35967,
+    "lon": 2.10028,
+    "population": 257038
+  },
+  {
+    "country": "ES",
+    "region_id": "32",
+    "region_code": "ES-32",
+    "city": "Pamplona",
+    "lat": 42.81687,
+    "lon": -1.64323,
+    "population": 209672
+  },
+  {
+    "country": "ES",
+    "region_id": "32",
+    "region_code": "ES-32",
+    "city": "Tudela",
+    "lat": 42.06166,
+    "lon": -1.60452,
+    "population": 34717
+  },
+  {
+    "country": "ES",
+    "region_id": "32",
+    "region_code": "ES-32",
+    "city": "Iturrama",
+    "lat": 42.80847,
+    "lon": -1.65825,
+    "population": 24846
+  },
+  {
+    "country": "ES",
+    "region_id": "39",
+    "region_code": "ES-39",
+    "city": "Santander",
+    "lat": 43.46472,
+    "lon": -3.80444,
+    "population": 174101
+  },
+  {
+    "country": "ES",
+    "region_id": "39",
+    "region_code": "ES-39",
+    "city": "Torrelavega",
+    "lat": 43.34943,
+    "lon": -4.04785,
+    "population": 55297
+  },
+  {
+    "country": "ES",
+    "region_id": "39",
+    "region_code": "ES-39",
+    "city": "Castro-Urdiales",
+    "lat": 43.38285,
+    "lon": -3.22043,
+    "population": 31977
+  },
+  {
+    "country": "ES",
+    "region_id": "34",
+    "region_code": "ES-34",
+    "city": "Gijón",
+    "lat": 43.53573,
+    "lon": -5.66152,
+    "population": 271780
+  },
+  {
+    "country": "ES",
+    "region_id": "34",
+    "region_code": "ES-34",
+    "city": "Oviedo",
+    "lat": 43.36029,
+    "lon": -5.84476,
+    "population": 220020
+  },
+  {
+    "country": "ES",
+    "region_id": "34",
+    "region_code": "ES-34",
+    "city": "Avilés",
+    "lat": 43.55473,
+    "lon": -5.92483,
+    "population": 78715
+  },
+  {
+    "country": "ES",
+    "region_id": "27",
+    "region_code": "ES-27",
+    "city": "Logroño",
+    "lat": 42.46667,
+    "lon": -2.45,
+    "population": 152485
+  },
+  {
+    "country": "ES",
+    "region_id": "27",
+    "region_code": "ES-27",
+    "city": "Calahorra",
+    "lat": 42.30506,
+    "lon": -1.96521,
+    "population": 24787
+  },
+  {
+    "country": "ES",
+    "region_id": "CE",
+    "region_code": "ES-CE",
+    "city": "Ceuta",
+    "lat": 35.88919,
+    "lon": -5.32042,
+    "population": 83179
+  },
+  {
+    "country": "DE",
+    "region_id": "13",
+    "region_code": "DE-13",
+    "city": "Dresden",
+    "lat": 51.05089,
+    "lon": 13.73832,
+    "population": 556227
+  },
+  {
+    "country": "DE",
+    "region_id": "13",
+    "region_code": "DE-13",
+    "city": "Leipzig",
+    "lat": 51.33962,
+    "lon": 12.37129,
+    "population": 504971
+  },
+  {
+    "country": "DE",
+    "region_id": "13",
+    "region_code": "DE-13",
+    "city": "Chemnitz",
+    "lat": 50.8357,
+    "lon": 12.92922,
+    "population": 247220
+  },
+  {
+    "country": "DE",
+    "region_id": "08",
+    "region_code": "DE-08",
+    "city": "Mainz",
+    "lat": 49.98419,
+    "lon": 8.2791,
+    "population": 217123
+  },
+  {
+    "country": "DE",
+    "region_id": "08",
+    "region_code": "DE-08",
+    "city": "Ludwigshafen am Rhein",
+    "lat": 49.48121,
+    "lon": 8.44641,
+    "population": 163196
+  },
+  {
+    "country": "DE",
+    "region_id": "08",
+    "region_code": "DE-08",
+    "city": "Koblenz",
+    "lat": 50.35357,
+    "lon": 7.57883,
+    "population": 107319
+  },
+  {
+    "country": "DE",
+    "region_id": "07",
+    "region_code": "DE-07",
+    "city": "Köln",
+    "lat": 50.93333,
+    "lon": 6.95,
+    "population": 963395
+  },
+  {
+    "country": "DE",
+    "region_id": "07",
+    "region_code": "DE-07",
+    "city": "Düsseldorf",
+    "lat": 51.22172,
+    "lon": 6.77616,
+    "population": 620523
+  },
+  {
+    "country": "DE",
+    "region_id": "07",
+    "region_code": "DE-07",
+    "city": "Essen",
+    "lat": 51.45657,
+    "lon": 7.01228,
+    "population": 593085
+  },
+  {
+    "country": "DE",
+    "region_id": "11",
+    "region_code": "DE-11",
+    "city": "Potsdam",
+    "lat": 52.39886,
+    "lon": 13.06566,
+    "population": 182112
+  },
+  {
+    "country": "DE",
+    "region_id": "11",
+    "region_code": "DE-11",
+    "city": "Cottbus",
+    "lat": 51.75769,
+    "lon": 14.32888,
+    "population": 84754
+  },
+  {
+    "country": "DE",
+    "region_id": "11",
+    "region_code": "DE-11",
+    "city": "Brandenburg an der Havel",
+    "lat": 52.41667,
+    "lon": 12.55,
+    "population": 59826
+  },
+  {
+    "country": "DE",
+    "region_id": "02",
+    "region_code": "DE-02",
+    "city": "Munich",
+    "lat": 48.13743,
+    "lon": 11.57549,
+    "population": 1260391
+  },
+  {
+    "country": "DE",
+    "region_id": "02",
+    "region_code": "DE-02",
+    "city": "Nürnberg",
+    "lat": 49.45421,
+    "lon": 11.07752,
+    "population": 515543
+  },
+  {
+    "country": "DE",
+    "region_id": "02",
+    "region_code": "DE-02",
+    "city": "Augsburg",
+    "lat": 48.37154,
+    "lon": 10.89851,
+    "population": 259196
+  },
+  {
+    "country": "DE",
+    "region_id": "14",
+    "region_code": "DE-14",
+    "city": "Halle (Saale)",
+    "lat": 51.48158,
+    "lon": 11.97947,
+    "population": 237865
+  },
+  {
+    "country": "DE",
+    "region_id": "14",
+    "region_code": "DE-14",
+    "city": "Magdeburg",
+    "lat": 52.12773,
+    "lon": 11.62916,
+    "population": 235775
+  },
+  {
+    "country": "DE",
+    "region_id": "14",
+    "region_code": "DE-14",
+    "city": "Neue Neustadt",
+    "lat": 52.15,
+    "lon": 11.63333,
+    "population": 226851
+  },
+  {
+    "country": "DE",
+    "region_id": "16",
+    "region_code": "DE-16",
+    "city": "Berlin",
+    "lat": 52.52437,
+    "lon": 13.41053,
+    "population": 3426354
+  },
+  {
+    "country": "DE",
+    "region_id": "16",
+    "region_code": "DE-16",
+    "city": "Neukölln",
+    "lat": 52.47719,
+    "lon": 13.43126,
+    "population": 164636
+  },
+  {
+    "country": "DE",
+    "region_id": "16",
+    "region_code": "DE-16",
+    "city": "Kreuzberg",
+    "lat": 52.49973,
+    "lon": 13.40338,
+    "population": 153135
+  },
+  {
+    "country": "DE",
+    "region_id": "06",
+    "region_code": "DE-06",
+    "city": "Hannover",
+    "lat": 52.37052,
+    "lon": 9.73322,
+    "population": 515140
+  },
+  {
+    "country": "DE",
+    "region_id": "06",
+    "region_code": "DE-06",
+    "city": "Braunschweig",
+    "lat": 52.26594,
+    "lon": 10.52673,
+    "population": 244715
+  },
+  {
+    "country": "DE",
+    "region_id": "06",
+    "region_code": "DE-06",
+    "city": "Osnabrück",
+    "lat": 52.27264,
+    "lon": 8.0498,
+    "population": 166462
+  },
+  {
+    "country": "DE",
+    "region_id": "05",
+    "region_code": "DE-05",
+    "city": "Frankfurt am Main",
+    "lat": 50.11552,
+    "lon": 8.68417,
+    "population": 650000
+  },
+  {
+    "country": "DE",
+    "region_id": "05",
+    "region_code": "DE-05",
+    "city": "Wiesbaden",
+    "lat": 50.08258,
+    "lon": 8.24932,
+    "population": 278609
+  },
+  {
+    "country": "DE",
+    "region_id": "05",
+    "region_code": "DE-05",
+    "city": "Kassel",
+    "lat": 51.31667,
+    "lon": 9.5,
+    "population": 194501
+  },
+  {
+    "country": "DE",
+    "region_id": "12",
+    "region_code": "DE-12",
+    "city": "Rostock",
+    "lat": 54.0887,
+    "lon": 12.14049,
+    "population": 198293
+  },
+  {
+    "country": "DE",
+    "region_id": "12",
+    "region_code": "DE-12",
+    "city": "Schwerin",
+    "lat": 53.62937,
+    "lon": 11.41316,
+    "population": 96641
+  },
+  {
+    "country": "DE",
+    "region_id": "12",
+    "region_code": "DE-12",
+    "city": "Neubrandenburg",
+    "lat": 53.56414,
+    "lon": 13.27532,
+    "population": 68082
+  },
+  {
+    "country": "DE",
+    "region_id": "04",
+    "region_code": "DE-04",
+    "city": "Hamburg",
+    "lat": 53.55073,
+    "lon": 9.99302,
+    "population": 1845229
+  },
+  {
+    "country": "DE",
+    "region_id": "04",
+    "region_code": "DE-04",
+    "city": "Wandsbek",
+    "lat": 53.58334,
+    "lon": 10.08305,
+    "population": 411422
+  },
+  {
+    "country": "DE",
+    "region_id": "04",
+    "region_code": "DE-04",
+    "city": "Hamburg-Nord",
+    "lat": 53.58935,
+    "lon": 9.984,
+    "population": 315514
+  },
+  {
+    "country": "DE",
+    "region_id": "01",
+    "region_code": "DE-01",
+    "city": "Stuttgart",
+    "lat": 48.78232,
+    "lon": 9.17702,
+    "population": 630305
+  },
+  {
+    "country": "DE",
+    "region_id": "01",
+    "region_code": "DE-01",
+    "city": "Mannheim",
+    "lat": 49.4891,
+    "lon": 8.46694,
+    "population": 307960
+  },
+  {
+    "country": "DE",
+    "region_id": "01",
+    "region_code": "DE-01",
+    "city": "Karlsruhe",
+    "lat": 49.00937,
+    "lon": 8.40444,
+    "population": 283799
+  },
+  {
+    "country": "DE",
+    "region_id": "15",
+    "region_code": "DE-15",
+    "city": "Erfurt",
+    "lat": 50.9787,
+    "lon": 11.03283,
+    "population": 213692
+  },
+  {
+    "country": "DE",
+    "region_id": "15",
+    "region_code": "DE-15",
+    "city": "Jena",
+    "lat": 50.92878,
+    "lon": 11.5899,
+    "population": 104712
+  },
+  {
+    "country": "DE",
+    "region_id": "15",
+    "region_code": "DE-15",
+    "city": "Gera",
+    "lat": 50.88029,
+    "lon": 12.08187,
+    "population": 104659
+  },
+  {
+    "country": "DE",
+    "region_id": "10",
+    "region_code": "DE-10",
+    "city": "Kiel",
+    "lat": 54.32133,
+    "lon": 10.13489,
+    "population": 246601
+  },
+  {
+    "country": "DE",
+    "region_id": "10",
+    "region_code": "DE-10",
+    "city": "Lübeck",
+    "lat": 53.86893,
+    "lon": 10.68729,
+    "population": 212207
+  },
+  {
+    "country": "DE",
+    "region_id": "10",
+    "region_code": "DE-10",
+    "city": "Flensburg",
+    "lat": 54.78805,
+    "lon": 9.43722,
+    "population": 85838
+  },
+  {
+    "country": "DE",
+    "region_id": "09",
+    "region_code": "DE-09",
+    "city": "Saarbrücken",
+    "lat": 49.23262,
+    "lon": 7.00982,
+    "population": 179349
+  },
+  {
+    "country": "DE",
+    "region_id": "09",
+    "region_code": "DE-09",
+    "city": "Neunkirchen",
+    "lat": 49.34449,
+    "lon": 7.18045,
+    "population": 49843
+  },
+  {
+    "country": "DE",
+    "region_id": "09",
+    "region_code": "DE-09",
+    "city": "Homburg",
+    "lat": 49.32637,
+    "lon": 7.33867,
+    "population": 44607
+  },
+  {
+    "country": "DE",
+    "region_id": "03",
+    "region_code": "DE-03",
+    "city": "Bremen",
+    "lat": 53.07582,
+    "lon": 8.80717,
+    "population": 546501
+  },
+  {
+    "country": "DE",
+    "region_id": "03",
+    "region_code": "DE-03",
+    "city": "Bremerhaven",
+    "lat": 53.55357,
+    "lon": 8.57553,
+    "population": 113557
+  },
+  {
+    "country": "DE",
+    "region_id": "03",
+    "region_code": "DE-03",
+    "city": "Vegesack",
+    "lat": 53.17923,
+    "lon": 8.62228,
+    "population": 34757
+  }
+]
