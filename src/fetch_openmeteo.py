@@ -1,7 +1,9 @@
-import json 
-from pathlib import Path 
-import requests 
-from typing import Dict, Any, List
+import json
+from pathlib import Path
+from typing import Any, Dict, List
+
+import requests
+from requests.exceptions import RequestException
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 REGION_POINTS: List[Dict[str, Any]] = json.loads(
@@ -19,8 +21,12 @@ def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
         "forecast_days": 1,
     }
 
-    resp = requests.get(base_url, params=params, timeout=20)
-    resp.raise_for_status()
+    try:
+        resp = requests.get(base_url, params=params, timeout=60)
+        resp.raise_for_status()
+    except RequestException as error:
+        print(f"[fetch_openmeteo] Skipping {pt.get('region_code')} / {pt.get('city')} due to error: {error}")
+        return []
 
     data = resp.json() 
 
