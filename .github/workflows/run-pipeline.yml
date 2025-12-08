@@ -2,12 +2,13 @@ name: Run weather pipeline and update website
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 3 * * *'   # every day at 03:00 UTC
   workflow_dispatch:
 
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout pipeline repo
         uses: actions/checkout@v4
@@ -36,27 +37,33 @@ jobs:
       - name: Copy JSON into website repo
         run: |
           mkdir -p website-repo/public/projects/weather-alerts
-          cp data/regions_daily.json website-repo/public/projects/weather-alerts/regions_daily.json
-          cp data/alerts.json        website-repo/public/projects/weather-alerts/alerts.json
+          cp data/regions_daily.json        website-repo/public/projects/weather-alerts/regions_daily.json
+          cp data/alerts.json               website-repo/public/projects/weather-alerts/alerts.json
           cp data/region_points_admin1.json website-repo/public/projects/weather-alerts/region_points_admin1.json
+          cp data/pipeline_status.json      website-repo/public/projects/weather-alerts/pipeline_status.json
 
       - name: Commit and push updated JSON
         working-directory: website-repo
         env:
           WEBSITE_REPO_TOKEN: ${{ secrets.WEBSITE_REPO_TOKEN }}
         run: |
+          # Set author identity for this repo
+          git config user.name "weather-pipeline-bot"
+          git config user.email "bot@example.com"
+
           git add public/projects/weather-alerts/regions_daily.json \
-                 public/projects/weather-alerts/alerts.json \
-                 public/projects/weather-alerts/region_points_admin1.json
+                  public/projects/weather-alerts/alerts.json \
+                  public/projects/weather-alerts/region_points_admin1.json \
+                  public/projects/weather-alerts/pipeline_status.json
+
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          export GIT_AUTHOR_NAME="weather-pipeline-bot"
-          export GIT_AUTHOR_EMAIL="bot@example.com"
-          export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-          export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+
           git commit -m "Update weather alerts JSON from pipeline"
+
           git remote set-url origin \
             https://x-access-token:${WEBSITE_REPO_TOKEN}@github.com/gaetanfichetdc/website.git
+
           git push origin main
