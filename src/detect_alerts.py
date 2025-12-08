@@ -10,6 +10,7 @@ HAZARDS = {
     "cold": {"field": "cold_level", "min_level": 1, "min_duration": 2},
     "wind": {"field": "wind_level", "min_level": 1, "min_duration": 1},
     "rain": {"field": "rain_level", "min_level": 1, "min_duration": 1},
+    "snow": {"field": "snow_level", "min_level": 1, "min_duration": 1},
 }
 
 DATE_FMT = "%Y-%m-%d"
@@ -45,9 +46,12 @@ def summarise_run(rows: List[Dict[str, Any]], hazard: str) -> Dict[str, Any]:
     elif hazard == "wind":
         max_value = max(float(r["wind_max_kmh"]) for r in rows)
         value_field = "max_wind_max_kmh"
-    else:  # rain
+    elif hazard == "rain":
         max_value = max(float(r["rain_mm"]) for r in rows)
         value_field = "max_rain_mm"
+    else:  # snow
+        max_value = max(float(r.get("snow_mm", 0.0)) for r in rows)
+        value_field = "max_snow_mm"
 
     return {
         "country": first["country"],

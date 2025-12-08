@@ -7,6 +7,7 @@ def main() -> None:
     regions_src = base / "data" / "regions_daily.json"
     alerts_src = base / "data" / "alerts.json"
     region_points_src = base / "data" / "region_points_admin1.json"
+    status_src = base / "data" / "pipeline_status.json"
 
     website_root = base.parent / "website"
 
@@ -17,6 +18,7 @@ def main() -> None:
         ("regions_daily.json", regions_src),
         ("alerts.json", alerts_src),
         ("region_points_admin1.json", region_points_src),
+        ("pipeline_status.json", status_src),
     ]
 
     for name, src in files:

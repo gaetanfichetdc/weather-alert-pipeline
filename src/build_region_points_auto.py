@@ -55,7 +55,9 @@ def main() -> None:
     out_path = base / "data" / "region_points_admin1.json"
 
     points: List[Dict[str, Any]] = []
-    for cc in ["FR", "ES", "DE"]:
+    for cc in ["FR", "ES", "DE", "IT", "PT"]:
+        # Two representative cities per region is usually enough for
+        # aggregation and keeps the number of API calls manageable.
         points.extend(build_region_points_for_country(cc, top_n=3))
 
     out_path.parent.mkdir(parents=True, exist_ok=True)

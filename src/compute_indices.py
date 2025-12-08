@@ -10,6 +10,7 @@ def classify_levels(row: Dict[str, Any]) -> Dict[str, int]:
     tmin = float(row["tmin_c"])
     wind = float(row["wind_max_kmh"])
     rain = float(row["rain_mm"])
+    snow = float(row.get("snow_mm", 0.0))
 
     if tmax >= 40:
         heat_level = 3
@@ -47,11 +48,24 @@ def classify_levels(row: Dict[str, Any]) -> Dict[str, int]:
     else:
         rain_level = 0
 
+    # Simple snow hazard levels based on daily snowfall (water equivalent).
+    # These thresholds are intentionally conservative and mostly intended for
+    # relative regional comparisons.
+    if snow >= 40:
+        snow_level = 3
+    elif snow >= 20:
+        snow_level = 2
+    elif snow >= 10:
+        snow_level = 1
+    else:
+        snow_level = 0
+
     return {
         "heat_level": heat_level,
         "cold_level": cold_level,
         "wind_level": wind_level,
         "rain_level": rain_level,
+        "snow_level": snow_level,
     }
 
 
@@ -88,6 +102,7 @@ def main() -> None:
         tmin_vals = _safe_floats(grp, "tmin_c")
         wind_vals = _safe_floats(grp, "wind_max_kmh")
         rain_vals = _safe_floats(grp, "rain_mm")
+        snow_vals = _safe_floats(grp, "snow_mm")
 
         # If we have no valid data at all for this (date, region), skip it.
         if not (tmax_vals and tmin_vals and wind_vals and rain_vals):
@@ -97,6 +112,7 @@ def main() -> None:
         tmin = min(tmin_vals)
         wind = max(wind_vals)
         rain = sum(rain_vals)  # or max/mean if you prefer
+        snow = sum(snow_vals) if snow_vals else 0.0
 
         base = grp[0]
         region_row = {
@@ -108,6 +124,7 @@ def main() -> None:
             "tmin_c": tmin,
             "wind_max_kmh": wind,
             "rain_mm": rain,
+            "snow_mm": snow,
         }
         region_row.update(classify_levels(region_row))
         out_rows.append(region_row)
