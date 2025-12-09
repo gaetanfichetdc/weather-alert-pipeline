@@ -5,7 +5,7 @@ from typing import Any, Dict, List
 from datetime import date, timedelta
 
 import requests
-from requests.exceptions import RequestException
+from requests.exceptions import RequestException, ReadTimeout
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 REGION_POINTS: List[Dict[str, Any]] = json.loads(
@@ -21,6 +21,8 @@ _end = date.today() - timedelta(days=1)
 _start = _end - timedelta(days=HISTORY_DAYS - 1)
 START_DATE = _start.isoformat()
 END_DATE = _end.isoformat()
+
+REQUEST_TIMEOUT_SECONDS = 90
 
 
 def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -45,9 +47,23 @@ def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
         try:
             # Global throttle to avoid hitting Open‑Meteo per‑second limits.
             time.sleep(0.75)
-            resp = requests.get(base_url, params=params, timeout=60)
+            resp = requests.get(base_url, params=params, timeout=REQUEST_TIMEOUT_SECONDS)
             resp.raise_for_status()
             break
+        except ReadTimeout as error:
+            if attempt == 0:
+                print(
+                    f"[fetch_openmeteo] Read timeout for {pt.get('region_code')} / {pt.get('city')}, "
+                    "sleeping and retrying once...",
+                )
+                time.sleep(5.0)
+                continue
+
+            print(
+                f"[fetch_openmeteo] Skipping {pt.get('region_code')} / {pt.get('city')} "
+                f"due to read timeout: {error}"
+            )
+            return []
         except RequestException as error:
             status = getattr(getattr(error, "response", None), "status_code", None)
             if status == 429 and attempt == 0:
