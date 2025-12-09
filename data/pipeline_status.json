@@ -1,16 +1,17 @@
 {
-  "started_at_utc": "2025-12-08T16:30:47+00:00",
-  "completed_at_utc": "2025-12-08T16:33:47+00:00",
+  "started_at_utc": "2025-12-09T13:27:26+00:00",
+  "completed_at_utc": "2025-12-09T13:30:28+00:00",
   "history_days": 180,
   "countries": [
     "DE",
     "ES",
     "FR",
-    "IT"
+    "IT",
+    "PT"
   ],
-  "regions_count": 61,
-  "rows_count": 10980,
-  "alerts_count": 1146,
-  "data_start_date": "2025-06-11",
-  "data_end_date": "2025-12-07"
+  "regions_count": 88,
+  "rows_count": 15840,
+  "alerts_count": 1284,
+  "data_start_date": "2025-06-12",
+  "data_end_date": "2025-12-08"
 }

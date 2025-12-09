@@ -19,6 +19,15 @@
   },
   {
     "country": "FR",
+    "region_id": "11",
+    "region_code": "FR-11",
+    "city": "Cergy-Pontoise",
+    "lat": 49.03894,
+    "lon": 2.07805,
+    "population": 183430
+  },
+  {
+    "country": "FR",
     "region_id": "44",
     "region_code": "FR-44",
     "city": "Strasbourg",
@@ -34,6 +43,15 @@
     "lat": 49.26526,
     "lon": 4.02853,
     "population": 196565
+  },
+  {
+    "country": "FR",
+    "region_id": "44",
+    "region_code": "FR-44",
+    "city": "Metz",
+    "lat": 49.11911,
+    "lon": 6.17269,
+    "population": 123914
   },
   {
     "country": "FR",
@@ -55,6 +73,15 @@
   },
   {
     "country": "FR",
+    "region_id": "32",
+    "region_code": "FR-32",
+    "city": "Roubaix",
+    "lat": 50.69421,
+    "lon": 3.17456,
+    "population": 98828
+  },
+  {
+    "country": "FR",
     "region_id": "84",
     "region_code": "FR-84",
     "city": "Lyon",
@@ -70,6 +97,15 @@
     "lat": 45.43389,
     "lon": 4.39,
     "population": 176280
+  },
+  {
+    "country": "FR",
+    "region_id": "84",
+    "region_code": "FR-84",
+    "city": "Grenoble",
+    "lat": 45.17869,
+    "lon": 5.71479,
+    "population": 158552
   },
   {
     "country": "FR",
@@ -91,6 +127,15 @@
   },
   {
     "country": "FR",
+    "region_id": "93",
+    "region_code": "FR-93",
+    "city": "Toulon",
+    "lat": 43.12442,
+    "lon": 5.92836,
+    "population": 168701
+  },
+  {
+    "country": "FR",
     "region_id": "53",
     "region_code": "FR-53",
     "city": "Rennes",
@@ -106,6 +151,15 @@
     "lat": 48.39029,
     "lon": -4.48628,
     "population": 144899
+  },
+  {
+    "country": "FR",
+    "region_id": "53",
+    "region_code": "FR-53",
+    "city": "Quimper",
+    "lat": 47.99597,
+    "lon": -4.09795,
+    "population": 63849
   },
   {
     "country": "FR",
@@ -127,6 +181,15 @@
   },
   {
     "country": "FR",
+    "region_id": "75",
+    "region_code": "FR-75",
+    "city": "Poitiers",
+    "lat": 46.58261,
+    "lon": 0.34348,
+    "population": 85960
+  },
+  {
+    "country": "FR",
     "region_id": "24",
     "region_code": "FR-24",
     "city": "Tours",
@@ -142,6 +205,15 @@
     "lat": 47.90289,
     "lon": 1.90389,
     "population": 116269
+  },
+  {
+    "country": "FR",
+    "region_id": "24",
+    "region_code": "FR-24",
+    "city": "Bourges",
+    "lat": 47.08333,
+    "lon": 2.4,
+    "population": 67987
   },
   {
     "country": "FR",
@@ -163,6 +235,15 @@
   },
   {
     "country": "FR",
+    "region_id": "27",
+    "region_code": "FR-27",
+    "city": "Belfort",
+    "lat": 47.64218,
+    "lon": 6.85385,
+    "population": 54562
+  },
+  {
+    "country": "FR",
     "region_id": "52",
     "region_code": "FR-52",
     "city": "Nantes",
@@ -178,6 +259,15 @@
     "lat": 47.47156,
     "lon": -0.55202,
     "population": 168279
+  },
+  {
+    "country": "FR",
+    "region_id": "52",
+    "region_code": "FR-52",
+    "city": "Le Mans",
+    "lat": 48.0021,
+    "lon": 0.20251,
+    "population": 144515
   },
   {
     "country": "FR",
@@ -199,6 +289,15 @@
   },
   {
     "country": "FR",
+    "region_id": "28",
+    "region_code": "FR-28",
+    "city": "Caen",
+    "lat": 49.18585,
+    "lon": -0.35912,
+    "population": 110624
+  },
+  {
+    "country": "FR",
     "region_id": "76",
     "region_code": "FR-76",
     "city": "Toulouse",
@@ -214,6 +313,15 @@
     "lat": 43.61093,
     "lon": 3.87635,
     "population": 248252
+  },
+  {
+    "country": "FR",
+    "region_id": "76",
+    "region_code": "FR-76",
+    "city": "Nîmes",
+    "lat": 43.83665,
+    "lon": 4.35788,
+    "population": 148236
   },
   {
     "country": "FR",
@@ -253,6 +361,15 @@
   },
   {
     "country": "ES",
+    "region_id": "51",
+    "region_code": "ES-51",
+    "city": "Córdoba",
+    "lat": 37.89155,
+    "lon": -4.77275,
+    "population": 325708
+  },
+  {
+    "country": "ES",
     "region_id": "57",
     "region_code": "ES-57",
     "city": "Badajoz",
@@ -268,6 +385,15 @@
     "lat": 39.47649,
     "lon": -6.37224,
     "population": 96068
+  },
+  {
+    "country": "ES",
+    "region_id": "57",
+    "region_code": "ES-57",
+    "city": "Mérida",
+    "lat": 38.91611,
+    "lon": -6.34366,
+    "population": 59352
   },
   {
     "country": "ES",
@@ -289,6 +415,15 @@
   },
   {
     "country": "ES",
+    "region_id": "31",
+    "region_code": "ES-31",
+    "city": "Lorca",
+    "lat": 37.67119,
+    "lon": -1.7017,
+    "population": 93079
+  },
+  {
+    "country": "ES",
     "region_id": "53",
     "region_code": "ES-53",
     "city": "Las Palmas de Gran Canaria",
@@ -304,6 +439,15 @@
     "lat": 28.46824,
     "lon": -16.25462,
     "population": 211436
+  },
+  {
+    "country": "ES",
+    "region_id": "53",
+    "region_code": "ES-53",
+    "city": "La Laguna",
+    "lat": 28.4853,
+    "lon": -16.32014,
+    "population": 150661
   },
   {
     "country": "ES",
@@ -325,6 +469,15 @@
   },
   {
     "country": "ES",
+    "region_id": "60",
+    "region_code": "ES-60",
+    "city": "Elche",
+    "lat": 38.26218,
+    "lon": -0.70107,
+    "population": 234765
+  },
+  {
+    "country": "ES",
     "region_id": "54",
     "region_code": "ES-54",
     "city": "Albacete",
@@ -343,6 +496,15 @@
   },
   {
     "country": "ES",
+    "region_id": "54",
+    "region_code": "ES-54",
+    "city": "Talavera de la Reina",
+    "lat": 39.96348,
+    "lon": -4.83076,
+    "population": 88856
+  },
+  {
+    "country": "ES",
     "region_id": "07",
     "region_code": "ES-07",
     "city": "Palma",
@@ -358,6 +520,15 @@
     "lat": 39.5657,
     "lon": 2.50621,
     "population": 51774
+  },
+  {
+    "country": "ES",
+    "region_id": "07",
+    "region_code": "ES-07",
+    "city": "Ibiza",
+    "lat": 38.90883,
+    "lon": 1.43296,
+    "population": 49727
   },
   {
     "country": "ES",
@@ -388,6 +559,15 @@
   },
   {
     "country": "ES",
+    "region_id": "59",
+    "region_code": "ES-59",
+    "city": "Donostia / San Sebastián",
+    "lat": 43.31283,
+    "lon": -1.97499,
+    "population": 185357
+  },
+  {
+    "country": "ES",
     "region_id": "52",
     "region_code": "ES-52",
     "city": "Zaragoza",
@@ -403,6 +583,15 @@
     "lat": 41.64928,
     "lon": -0.90757,
     "population": 110520
+  },
+  {
+    "country": "ES",
+    "region_id": "52",
+    "region_code": "ES-52",
+    "city": "Huesca",
+    "lat": 42.13615,
+    "lon": -0.4087,
+    "population": 53956
   },
   {
     "country": "ES",
@@ -424,6 +613,15 @@
   },
   {
     "country": "ES",
+    "region_id": "55",
+    "region_code": "ES-55",
+    "city": "Salamanca",
+    "lat": 40.96882,
+    "lon": -5.66388,
+    "population": 144825
+  },
+  {
+    "country": "ES",
     "region_id": "58",
     "region_code": "ES-58",
     "city": "Vigo",
@@ -439,6 +637,15 @@
     "lat": 43.37135,
     "lon": -8.396,
     "population": 250438
+  },
+  {
+    "country": "ES",
+    "region_id": "58",
+    "region_code": "ES-58",
+    "city": "Ourense",
+    "lat": 42.33669,
+    "lon": -7.86407,
+    "population": 105233
   },
   {
     "country": "ES",
@@ -460,6 +667,15 @@
   },
   {
     "country": "ES",
+    "region_id": "29",
+    "region_code": "ES-29",
+    "city": "Carabanchel",
+    "lat": 40.39094,
+    "lon": -3.7242,
+    "population": 253678
+  },
+  {
+    "country": "ES",
     "region_id": "56",
     "region_code": "ES-56",
     "city": "Barcelona",
@@ -475,6 +691,15 @@
     "lat": 41.38896,
     "lon": 2.16179,
     "population": 266477
+  },
+  {
+    "country": "ES",
+    "region_id": "56",
+    "region_code": "ES-56",
+    "city": "L'Hospitalet de Llobregat",
+    "lat": 41.35967,
+    "lon": 2.10028,
+    "population": 257038
   },
   {
     "country": "ES",
@@ -496,6 +721,15 @@
   },
   {
     "country": "ES",
+    "region_id": "32",
+    "region_code": "ES-32",
+    "city": "Iturrama",
+    "lat": 42.80847,
+    "lon": -1.65825,
+    "population": 24846
+  },
+  {
+    "country": "ES",
     "region_id": "39",
     "region_code": "ES-39",
     "city": "Santander",
@@ -514,6 +748,15 @@
   },
   {
     "country": "ES",
+    "region_id": "39",
+    "region_code": "ES-39",
+    "city": "Castro-Urdiales",
+    "lat": 43.38285,
+    "lon": -3.22043,
+    "population": 31977
+  },
+  {
+    "country": "ES",
     "region_id": "34",
     "region_code": "ES-34",
     "city": "Gijón",
@@ -529,6 +772,15 @@
     "lat": 43.36029,
     "lon": -5.84476,
     "population": 220020
+  },
+  {
+    "country": "ES",
+    "region_id": "34",
+    "region_code": "ES-34",
+    "city": "Avilés",
+    "lat": 43.55473,
+    "lon": -5.92483,
+    "population": 78715
   },
   {
     "country": "ES",
@@ -577,6 +829,15 @@
   },
   {
     "country": "DE",
+    "region_id": "13",
+    "region_code": "DE-13",
+    "city": "Chemnitz",
+    "lat": 50.8357,
+    "lon": 12.92922,
+    "population": 247220
+  },
+  {
+    "country": "DE",
     "region_id": "08",
     "region_code": "DE-08",
     "city": "Mainz",
@@ -592,6 +853,15 @@
     "lat": 49.48121,
     "lon": 8.44641,
     "population": 163196
+  },
+  {
+    "country": "DE",
+    "region_id": "08",
+    "region_code": "DE-08",
+    "city": "Koblenz",
+    "lat": 50.35357,
+    "lon": 7.57883,
+    "population": 107319
   },
   {
     "country": "DE",
@@ -613,6 +883,15 @@
   },
   {
     "country": "DE",
+    "region_id": "07",
+    "region_code": "DE-07",
+    "city": "Essen",
+    "lat": 51.45657,
+    "lon": 7.01228,
+    "population": 593085
+  },
+  {
+    "country": "DE",
     "region_id": "11",
     "region_code": "DE-11",
     "city": "Potsdam",
@@ -628,6 +907,15 @@
     "lat": 51.75769,
     "lon": 14.32888,
     "population": 84754
+  },
+  {
+    "country": "DE",
+    "region_id": "11",
+    "region_code": "DE-11",
+    "city": "Brandenburg an der Havel",
+    "lat": 52.41667,
+    "lon": 12.55,
+    "population": 59826
   },
   {
     "country": "DE",
@@ -649,6 +937,15 @@
   },
   {
     "country": "DE",
+    "region_id": "02",
+    "region_code": "DE-02",
+    "city": "Augsburg",
+    "lat": 48.37154,
+    "lon": 10.89851,
+    "population": 259196
+  },
+  {
+    "country": "DE",
     "region_id": "14",
     "region_code": "DE-14",
     "city": "Halle (Saale)",
@@ -664,6 +961,15 @@
     "lat": 52.12773,
     "lon": 11.62916,
     "population": 235775
+  },
+  {
+    "country": "DE",
+    "region_id": "14",
+    "region_code": "DE-14",
+    "city": "Neue Neustadt",
+    "lat": 52.15,
+    "lon": 11.63333,
+    "population": 226851
   },
   {
     "country": "DE",
@@ -685,6 +991,15 @@
   },
   {
     "country": "DE",
+    "region_id": "16",
+    "region_code": "DE-16",
+    "city": "Kreuzberg",
+    "lat": 52.49973,
+    "lon": 13.40338,
+    "population": 153135
+  },
+  {
+    "country": "DE",
     "region_id": "06",
     "region_code": "DE-06",
     "city": "Hannover",
@@ -700,6 +1015,15 @@
     "lat": 52.26594,
     "lon": 10.52673,
     "population": 244715
+  },
+  {
+    "country": "DE",
+    "region_id": "06",
+    "region_code": "DE-06",
+    "city": "Osnabrück",
+    "lat": 52.27264,
+    "lon": 8.0498,
+    "population": 166462
   },
   {
     "country": "DE",
@@ -721,6 +1045,15 @@
   },
   {
     "country": "DE",
+    "region_id": "05",
+    "region_code": "DE-05",
+    "city": "Kassel",
+    "lat": 51.31667,
+    "lon": 9.5,
+    "population": 194501
+  },
+  {
+    "country": "DE",
     "region_id": "12",
     "region_code": "DE-12",
     "city": "Rostock",
@@ -736,6 +1069,15 @@
     "lat": 53.62937,
     "lon": 11.41316,
     "population": 96641
+  },
+  {
+    "country": "DE",
+    "region_id": "12",
+    "region_code": "DE-12",
+    "city": "Neubrandenburg",
+    "lat": 53.56414,
+    "lon": 13.27532,
+    "population": 68082
   },
   {
     "country": "DE",
@@ -757,6 +1099,15 @@
   },
   {
     "country": "DE",
+    "region_id": "04",
+    "region_code": "DE-04",
+    "city": "Hamburg-Nord",
+    "lat": 53.58935,
+    "lon": 9.984,
+    "population": 315514
+  },
+  {
+    "country": "DE",
     "region_id": "01",
     "region_code": "DE-01",
     "city": "Stuttgart",
@@ -772,6 +1123,15 @@
     "lat": 49.4891,
     "lon": 8.46694,
     "population": 307960
+  },
+  {
+    "country": "DE",
+    "region_id": "01",
+    "region_code": "DE-01",
+    "city": "Karlsruhe",
+    "lat": 49.00937,
+    "lon": 8.40444,
+    "population": 283799
   },
   {
     "country": "DE",
@@ -793,6 +1153,15 @@
   },
   {
     "country": "DE",
+    "region_id": "15",
+    "region_code": "DE-15",
+    "city": "Gera",
+    "lat": 50.88029,
+    "lon": 12.08187,
+    "population": 104659
+  },
+  {
+    "country": "DE",
     "region_id": "10",
     "region_code": "DE-10",
     "city": "Kiel",
@@ -808,6 +1177,15 @@
     "lat": 53.86893,
     "lon": 10.68729,
     "population": 212207
+  },
+  {
+    "country": "DE",
+    "region_id": "10",
+    "region_code": "DE-10",
+    "city": "Flensburg",
+    "lat": 54.78805,
+    "lon": 9.43722,
+    "population": 85838
   },
   {
     "country": "DE",
@@ -829,6 +1207,15 @@
   },
   {
     "country": "DE",
+    "region_id": "09",
+    "region_code": "DE-09",
+    "city": "Homburg",
+    "lat": 49.32637,
+    "lon": 7.33867,
+    "population": 44607
+  },
+  {
+    "country": "DE",
     "region_id": "03",
     "region_code": "DE-03",
     "city": "Bremen",
@@ -844,6 +1231,15 @@
     "lat": 53.55357,
     "lon": 8.57553,
     "population": 113557
+  },
+  {
+    "country": "DE",
+    "region_id": "03",
+    "region_code": "DE-03",
+    "city": "Vegesack",
+    "lat": 53.17923,
+    "lon": 8.62228,
+    "population": 34757
   },
   {
     "country": "IT",
@@ -865,6 +1261,15 @@
   },
   {
     "country": "IT",
+    "region_id": "15",
+    "region_code": "IT-15",
+    "city": "Messina",
+    "lat": 38.19394,
+    "lon": 15.55256,
+    "population": 219948
+  },
+  {
+    "country": "IT",
     "region_id": "03",
     "region_code": "IT-03",
     "city": "Reggio Calabria",
@@ -880,6 +1285,15 @@
     "lat": 38.88247,
     "lon": 16.60086,
     "population": 78970
+  },
+  {
+    "country": "IT",
+    "region_id": "03",
+    "region_code": "IT-03",
+    "city": "Lamezia Terme",
+    "lat": 38.96255,
+    "lon": 16.30938,
+    "population": 70501
   },
   {
     "country": "IT",
@@ -901,6 +1315,15 @@
   },
   {
     "country": "IT",
+    "region_id": "14",
+    "region_code": "IT-14",
+    "city": "Quartu Sant'Elena",
+    "lat": 39.22935,
+    "lon": 9.25004,
+    "population": 66620
+  },
+  {
+    "country": "IT",
     "region_id": "13",
     "region_code": "IT-13",
     "city": "Bari",
@@ -916,6 +1339,15 @@
     "lat": 40.46438,
     "lon": 17.24707,
     "population": 198585
+  },
+  {
+    "country": "IT",
+    "region_id": "13",
+    "region_code": "IT-13",
+    "city": "Foggia",
+    "lat": 41.45845,
+    "lon": 15.55188,
+    "population": 137032
   },
   {
     "country": "IT",
@@ -937,6 +1369,15 @@
   },
   {
     "country": "IT",
+    "region_id": "05",
+    "region_code": "IT-05",
+    "city": "Modena",
+    "lat": 44.64783,
+    "lon": 10.92539,
+    "population": 184732
+  },
+  {
+    "country": "IT",
     "region_id": "04",
     "region_code": "IT-04",
     "city": "Naples",
@@ -952,6 +1393,15 @@
     "lat": 40.67545,
     "lon": 14.79328,
     "population": 125797
+  },
+  {
+    "country": "IT",
+    "region_id": "04",
+    "region_code": "IT-04",
+    "city": "Torre del Greco",
+    "lat": 40.78931,
+    "lon": 14.36806,
+    "population": 85332
   },
   {
     "country": "IT",
@@ -973,6 +1423,15 @@
   },
   {
     "country": "IT",
+    "region_id": "09",
+    "region_code": "IT-09",
+    "city": "Quarto Oggiaro",
+    "lat": 45.51314,
+    "lon": 9.14343,
+    "population": 182118
+  },
+  {
+    "country": "IT",
     "region_id": "20",
     "region_code": "IT-20",
     "city": "Verona",
@@ -988,6 +1447,15 @@
     "lat": 45.40797,
     "lon": 11.88586,
     "population": 203725
+  },
+  {
+    "country": "IT",
+    "region_id": "20",
+    "region_code": "IT-20",
+    "city": "Mestre",
+    "lat": 45.49167,
+    "lon": 12.24538,
+    "population": 147662
   },
   {
     "country": "IT",
@@ -1009,6 +1477,15 @@
   },
   {
     "country": "IT",
+    "region_id": "07",
+    "region_code": "IT-07",
+    "city": "Lido di Ostia",
+    "lat": 41.73212,
+    "lon": 12.27654,
+    "population": 85301
+  },
+  {
+    "country": "IT",
     "region_id": "16",
     "region_code": "IT-16",
     "city": "Florence",
@@ -1024,6 +1501,15 @@
     "lat": 43.8805,
     "lon": 11.09699,
     "population": 195089
+  },
+  {
+    "country": "IT",
+    "region_id": "16",
+    "region_code": "IT-16",
+    "city": "Livorno",
+    "lat": 43.54427,
+    "lon": 10.32615,
+    "population": 157017
   },
   {
     "country": "IT",
@@ -1045,6 +1531,15 @@
   },
   {
     "country": "IT",
+    "region_id": "12",
+    "region_code": "IT-12",
+    "city": "Alessandria",
+    "lat": 44.90924,
+    "lon": 8.61007,
+    "population": 92104
+  },
+  {
+    "country": "IT",
     "region_id": "08",
     "region_code": "IT-08",
     "city": "Genoa",
@@ -1060,6 +1555,15 @@
     "lat": 44.103,
     "lon": 9.82375,
     "population": 93288
+  },
+  {
+    "country": "IT",
+    "region_id": "08",
+    "region_code": "IT-08",
+    "city": "Savona",
+    "lat": 44.30905,
+    "lon": 8.47715,
+    "population": 61345
   },
   {
     "country": "IT",
@@ -1081,6 +1585,15 @@
   },
   {
     "country": "IT",
+    "region_id": "01",
+    "region_code": "IT-01",
+    "city": "Montesilvano Marina",
+    "lat": 42.5114,
+    "lon": 14.14507,
+    "population": 45991
+  },
+  {
+    "country": "IT",
     "region_id": "06",
     "region_code": "IT-06",
     "city": "Trieste",
@@ -1096,6 +1609,15 @@
     "lat": 46.0693,
     "lon": 13.23715,
     "population": 100170
+  },
+  {
+    "country": "IT",
+    "region_id": "06",
+    "region_code": "IT-06",
+    "city": "Pordenone",
+    "lat": 45.95689,
+    "lon": 12.66051,
+    "population": 49878
   },
   {
     "country": "IT",
@@ -1117,6 +1639,15 @@
   },
   {
     "country": "IT",
+    "region_id": "17",
+    "region_code": "IT-17",
+    "city": "Merano",
+    "lat": 46.66817,
+    "lon": 11.15953,
+    "population": 41051
+  },
+  {
+    "country": "IT",
     "region_id": "10",
     "region_code": "IT-10",
     "city": "Ancona",
@@ -1132,6 +1663,15 @@
     "lat": 43.90921,
     "lon": 12.9164,
     "population": 77241
+  },
+  {
+    "country": "IT",
+    "region_id": "10",
+    "region_code": "IT-10",
+    "city": "Fano",
+    "lat": 43.84052,
+    "lon": 13.01665,
+    "population": 60978
   },
   {
     "country": "IT",
@@ -1153,6 +1693,15 @@
   },
   {
     "country": "IT",
+    "region_id": "18",
+    "region_code": "IT-18",
+    "city": "Foligno",
+    "lat": 42.95488,
+    "lon": 12.70268,
+    "population": 56918
+  },
+  {
+    "country": "IT",
     "region_id": "11",
     "region_code": "IT-11",
     "city": "Campobasso",
@@ -1168,6 +1717,15 @@
     "lat": 41.99994,
     "lon": 14.99389,
     "population": 31044
+  },
+  {
+    "country": "IT",
+    "region_id": "11",
+    "region_code": "IT-11",
+    "city": "Isernia",
+    "lat": 41.59603,
+    "lon": 14.23399,
+    "population": 16945
   },
   {
     "country": "IT",
@@ -1216,6 +1774,15 @@
   },
   {
     "country": "PT",
+    "region_id": "14",
+    "region_code": "PT-14",
+    "city": "Queluz",
+    "lat": 38.75657,
+    "lon": -9.25451,
+    "population": 103399
+  },
+  {
+    "country": "PT",
     "region_id": "18",
     "region_code": "PT-18",
     "city": "Monsanto",
@@ -1231,6 +1798,15 @@
     "lat": 39.23333,
     "lon": -8.68333,
     "population": 29385
+  },
+  {
+    "country": "PT",
+    "region_id": "18",
+    "region_code": "PT-18",
+    "city": "Entroncamento",
+    "lat": 39.46667,
+    "lon": -8.46667,
+    "population": 19887
   },
   {
     "country": "PT",
@@ -1252,6 +1828,15 @@
   },
   {
     "country": "PT",
+    "region_id": "09",
+    "region_code": "PT-09",
+    "city": "Lagos",
+    "lat": 37.10202,
+    "lon": -8.67422,
+    "population": 33494
+  },
+  {
+    "country": "PT",
     "region_id": "19",
     "region_code": "PT-19",
     "city": "Setúbal",
@@ -1270,6 +1855,15 @@
   },
   {
     "country": "PT",
+    "region_id": "19",
+    "region_code": "PT-19",
+    "city": "Corroios",
+    "lat": 38.64004,
+    "lon": -9.1508,
+    "population": 52520
+  },
+  {
+    "country": "PT",
     "region_id": "10",
     "region_code": "PT-10",
     "city": "Funchal",
@@ -1285,6 +1879,15 @@
     "lat": 32.65043,
     "lon": -16.97718,
     "population": 32209
+  },
+  {
+    "country": "PT",
+    "region_id": "10",
+    "region_code": "PT-10",
+    "city": "São Martinho",
+    "lat": 32.6448,
+    "lon": -16.93843,
+    "population": 26482
   },
   {
     "country": "PT",
@@ -1312,6 +1915,15 @@
     "lat": 39.74769,
     "lon": -8.93228,
     "population": 28916
+  },
+  {
+    "country": "PT",
+    "region_id": "13",
+    "region_code": "PT-13",
+    "city": "Caldas da Rainha",
+    "lat": 39.40326,
+    "lon": -9.13839,
+    "population": 27378
   },
   {
     "country": "PT",
@@ -1396,6 +2008,15 @@
   },
   {
     "country": "PT",
+    "region_id": "17",
+    "region_code": "PT-17",
+    "city": "Felgueiras",
+    "lat": 41.36806,
+    "lon": -8.19396,
+    "population": 58065
+  },
+  {
+    "country": "PT",
     "region_id": "02",
     "region_code": "PT-02",
     "city": "Aveiro",
@@ -1411,6 +2032,15 @@
     "lat": 41.00763,
     "lon": -8.64125,
     "population": 32786
+  },
+  {
+    "country": "PT",
+    "region_id": "02",
+    "region_code": "PT-02",
+    "city": "São João da Madeira",
+    "lat": 40.9007,
+    "lon": -8.4902,
+    "population": 22079
   },
   {
     "country": "PT",
@@ -1432,6 +2062,15 @@
   },
   {
     "country": "PT",
+    "region_id": "20",
+    "region_code": "PT-20",
+    "city": "Arcos de Valdevez",
+    "lat": 41.84668,
+    "lon": -8.41905,
+    "population": 22847
+  },
+  {
+    "country": "PT",
     "region_id": "11",
     "region_code": "PT-11",
     "city": "Guarda",
@@ -1447,6 +2086,15 @@
     "lat": 40.55364,
     "lon": -7.22594,
     "population": 28502
+  },
+  {
+    "country": "PT",
+    "region_id": "11",
+    "region_code": "PT-11",
+    "city": "Custoias",
+    "lat": 41.1053,
+    "lon": -7.32097,
+    "population": 19406
   },
   {
     "country": "PT",
@@ -1468,6 +2116,15 @@
   },
   {
     "country": "PT",
+    "region_id": "07",
+    "region_code": "PT-07",
+    "city": "Santo António dos Olivais",
+    "lat": 40.21805,
+    "lon": -8.40523,
+    "population": 41150
+  },
+  {
+    "country": "PT",
     "region_id": "04",
     "region_code": "PT-04",
     "city": "Braga",
@@ -1483,6 +2140,15 @@
     "lat": 41.44443,
     "lon": -8.29619,
     "population": 40604
+  },
+  {
+    "country": "PT",
+    "region_id": "04",
+    "region_code": "PT-04",
+    "city": "Esposende",
+    "lat": 41.5361,
+    "lon": -8.78201,
+    "population": 34625
   },
   {
     "country": "PT",

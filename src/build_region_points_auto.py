@@ -40,6 +40,7 @@ def build_region_points_for_country(country_code: str, top_n: int = 3) -> List[D
             "lon": float(city.get("longitude")),
             "population": pop,
         }
+        
         by_region.setdefault(admin1, []).append(entry)
 
     points: List[Dict[str, Any]] = []
@@ -49,15 +50,12 @@ def build_region_points_for_country(country_code: str, top_n: int = 3) -> List[D
 
     return points
 
-
 def main() -> None:
     base = Path(__file__).resolve().parents[1]
     out_path = base / "data" / "region_points_admin1.json"
 
     points: List[Dict[str, Any]] = []
     for cc in ["FR", "ES", "DE", "IT", "PT"]:
-        # Two representative cities per region is usually enough for
-        # aggregation and keeps the number of API calls manageable.
         points.extend(build_region_points_for_country(cc, top_n=3))
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
