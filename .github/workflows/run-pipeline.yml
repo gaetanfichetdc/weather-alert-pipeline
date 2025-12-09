@@ -33,6 +33,11 @@ jobs:
           curl -s -H "Authorization: Bearer ${WEBSITE_REPO_TOKEN}" https://api.github.com/user
 
       - name: Run weather pipeline
+        env:
+          # Use fewer sample cities per region in CI to keep the
+          # number of archive API calls manageable and reduce the
+          # chance of timeouts. Locally you still get top_n=3.
+          WEATHER_TOP_N_CITIES: '2'
         run: python -m src.run_pipeline
 
       - name: Clone website repo
