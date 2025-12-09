@@ -1,9 +1,10 @@
 # weather-alert-pipeline/src/build_region_points_auto.py
 from __future__ import annotations
 
+import json
+import os
 from pathlib import Path
 from typing import Dict, Any, List
-import json
 
 import geonamescache
 
@@ -54,9 +55,17 @@ def main() -> None:
     base = Path(__file__).resolve().parents[1]
     out_path = base / "data" / "region_points_admin1.json"
 
+    # Allow CI (GitHub Actions) to override the number of sample
+    # cities per region so we can reduce API calls if needed.
+    try:
+        top_n = int(os.getenv("WEATHER_TOP_N_CITIES", "3"))
+    except ValueError:
+        top_n = 3
+    top_n = max(1, min(top_n, 5))
+
     points: List[Dict[str, Any]] = []
     for cc in ["FR", "ES", "DE", "IT", "PT"]:
-        points.extend(build_region_points_for_country(cc, top_n=3))
+        points.extend(build_region_points_for_country(cc, top_n=top_n))
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(points, ensure_ascii=False, indent=2), encoding="utf-8")
