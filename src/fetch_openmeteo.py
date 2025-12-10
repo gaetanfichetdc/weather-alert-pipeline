@@ -12,20 +12,13 @@ REGION_POINTS: List[Dict[str, Any]] = json.loads(
     (BASE_DIR / "data" / "region_points_admin1.json").read_text(encoding="utf-8")
 )
 
-# Number of days of history to fetch per location using the Open‑Meteo archive API.
+# Number of days of history to keep per location using the Open‑Meteo archive API.
 HISTORY_DAYS = 180
-
-# Archive API is historical only; we fetch up to yesterday to avoid mixing in
-# partial current‑day data.
-_end = date.today() - timedelta(days=1)
-_start = _end - timedelta(days=HISTORY_DAYS - 1)
-START_DATE = _start.isoformat()
-END_DATE = _end.isoformat()
 
 REQUEST_TIMEOUT_SECONDS = 90
 
 
-def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
+def fetch_daily_for_point(pt: Dict[str, Any], start_date: str, end_date: str) -> List[Dict[str, Any]]:
     # Use historical archive API instead of the forecast endpoint so we can
     # pull a longer continuous history.
     base_url = "https://archive-api.open-meteo.com/v1/archive"
@@ -38,8 +31,8 @@ def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
             "snowfall_sum"
         ),
         "timezone": "Europe/Berlin",
-        "start_date": START_DATE,
-        "end_date": END_DATE,
+        "start_date": start_date,
+        "end_date": end_date,
     }
 
     # Basic rate limiting: small sleep between calls plus a simple retry on 429.
@@ -111,19 +104,87 @@ def fetch_daily_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
     return rows 
 
 def main() -> None:
-    all_rows: list[dict] = []
-    for pt in REGION_POINTS:
-        all_rows.extend(fetch_daily_for_point(pt))
-
-    out_dir = Path("data")
+    out_dir = BASE_DIR / "data"
     out_dir.mkdir(parents=True, exist_ok=True)
-
     out_path = out_dir / "daily_region_raw.json"
 
-    with out_path.open("w", encoding="utf-8") as f:
-        json.dump(all_rows, f, ensure_ascii=False, indent=2)
+    existing_rows: List[Dict[str, Any]] = []
+    if out_path.exists():
+        try:
+            parsed = json.loads(out_path.read_text(encoding="utf-8"))
+            if isinstance(parsed, list):
+                existing_rows = parsed
+        except json.JSONDecodeError:
+            existing_rows = []
 
-    print(f"Wrote {len(all_rows)} rows to {out_path}")
+    # Define the desired history window: last HISTORY_DAYS up to yesterday.
+    end = date.today() - timedelta(days=1)
+    history_start = end - timedelta(days=HISTORY_DAYS - 1)
+
+    # For incremental updates we track, per region_code, the latest date we
+    # already have. Newly added regions (for a new country) will not appear
+    # here and will get a full HISTORY_DAYS backfill automatically.
+    latest_by_region: Dict[str, date] = {}
+    for row in existing_rows:
+        d = row.get("date")
+        code = row.get("region_code")
+        if not isinstance(d, str) or not isinstance(code, str):
+            continue
+        try:
+            dt = date.fromisoformat(d)
+        except ValueError:
+            continue
+        # Ignore dates older than our rolling history window; they will be
+        # dropped anyway.
+        if dt < history_start:
+            continue
+        prev = latest_by_region.get(code)
+        if prev is None or dt > prev:
+            latest_by_region[code] = dt
+
+    new_rows: List[Dict[str, Any]] = []
+
+    any_fetch = False
+    for pt in REGION_POINTS:
+        region_code = pt.get("region_code")
+        latest_for_region = latest_by_region.get(region_code) if isinstance(region_code, str) else None
+
+        if latest_for_region is None:
+            # New region (e.g. new country just added): backfill the full window.
+            start_fetch = history_start
+        else:
+            # Incremental: start one day after the region's latest date,
+            # but never earlier than the start of the rolling window.
+            candidate = latest_for_region + timedelta(days=1)
+            start_fetch = max(candidate, history_start)
+
+        if start_fetch > end:
+            # Nothing new to fetch for this region.
+            continue
+
+        any_fetch = True
+        start_iso = start_fetch.isoformat()
+        end_iso = end.isoformat()
+        print(
+            f"[fetch_openmeteo] Fetching {start_iso} → {end_iso} for {region_code}",
+        )
+        new_rows.extend(fetch_daily_for_point(pt, start_iso, end_iso))
+
+    if not any_fetch:
+        print(
+            "[fetch_openmeteo] No new dates to fetch for any region; "
+            f"reusing existing daily_region_raw.json and trimming to the last {HISTORY_DAYS} days.",
+        )
+
+    combined = existing_rows + new_rows
+
+    # Trim to the rolling HISTORY_DAYS window.
+    cutoff_iso = history_start.isoformat()
+    trimmed = [row for row in combined if isinstance(row.get("date"), str) and row["date"] >= cutoff_iso]
+
+    out_path.write_text(json.dumps(trimmed, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"Wrote {len(trimmed)} rows to {out_path}")
 
 if __name__ == "__main__":
     main()
