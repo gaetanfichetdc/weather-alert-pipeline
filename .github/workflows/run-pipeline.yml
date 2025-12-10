@@ -61,11 +61,11 @@ jobs:
         env:
           WEBSITE_REPO_TOKEN: ${{ secrets.WEBSITE_REPO_TOKEN }}
         run: |
-          # Set author identity for this repo; use the same email
-          # as your GitHub account so commits are associated with
-          # `gaetanfichetdc`, not an unrelated bot user.
+          # Set author identity for this repo; use the same name/email
+          # as your normal Git commits so Vercel can match the author
+          # to your GitHub account.
           git config user.name "gaetanfichetdc"
-          git config user.email "gaetanfichetdeclairfontaine@users.noreply.github.com"
+          git config user.email "gaetan.fichetdc.pro@gmail.com"
 
           git add public/projects/weather-alerts/regions_daily.json \
                   public/projects/weather-alerts/alerts.json \
