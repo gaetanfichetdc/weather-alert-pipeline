@@ -37,8 +37,30 @@ jobs:
           # Use fewer sample cities per region in CI to keep the
           # number of archive API calls manageable and reduce the
           # chance of timeouts. Locally you still get top_n=3.
-          WEATHER_TOP_N_CITIES: '2'
+          WEATHER_TOP_N_CITIES: '3'
         run: python -m src.run_pipeline
+
+      - name: Commit updated pipeline data back to this repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Persist the rolling 180‑day history so future CI runs
+          # only fetch truly new days instead of backfilling from
+          # scratch on a fresh runner.
+          git config user.name "gaetanfichetdc"
+          git config user.email "gaetan.fichetdc.pro@gmail.com"
+
+          git add data/daily_region_raw.json \
+                  data/regions_daily.json \
+                  data/alerts.json \
+                  data/pipeline_status.json
+
+          if git diff --cached --quiet; then
+            echo "No pipeline data changes to commit"
+          else
+            git commit -m "Update pipeline JSON data [ci skip]"
+            git push origin main
+          fi
 
       - name: Clone website repo
         env:
@@ -64,8 +86,8 @@ jobs:
           # Set author identity for this repo; use the same name/email
           # as your normal Git commits so Vercel can match the author
           # to your GitHub account.
-          git config user.name "gaetanfichetdc"
-          git config user.email "gaetan.fichetdc.pro@gmail.com"
+          git config --global user.name "gaetanfichetdc"
+          git config --global user.email "gaetan.fichetdc.pro@gmail.com"
 
           git add public/projects/weather-alerts/regions_daily.json \
                   public/projects/weather-alerts/alerts.json \
