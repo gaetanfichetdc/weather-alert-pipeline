@@ -36,7 +36,7 @@ jobs:
           # Use fewer sample cities per region in CI to keep the
           # number of archive API calls manageable and reduce the
           # chance of timeouts. Locally you still get top_n=3.
-          WEATHER_TOP_N_CITIES: '3'
+          WEATHER_TOP_N_CITIES: '1'
         run: python -m src.run_pipeline
 
       - name: Commit updated pipeline data back to this repo
