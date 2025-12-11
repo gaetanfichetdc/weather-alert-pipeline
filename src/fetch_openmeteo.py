@@ -27,6 +27,9 @@ FORECAST_SLEEP_SECONDS = float(os.getenv("WEATHER_FORECAST_SLEEP_SECONDS", "0.75
 # endpoint.
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
+# Optional extra logging controlled via WEATHER_DEBUG=1.
+WEATHER_DEBUG = os.getenv("WEATHER_DEBUG", "0") == "1"
+
 
 def fetch_daily_for_point(pt: Dict[str, Any], start_date: str, end_date: str) -> List[Dict[str, Any]]:
     """
@@ -132,6 +135,14 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
     In both cases we aim to keep just today + tomorrow so the daily CI
     pipeline remains lightweight.
     """
+    if WEATHER_DEBUG:
+        print(
+            "[fetch_openmeteo] fetch_forecast_for_point: "
+            f"provider={'openweather-forecast' if OPENWEATHER_API_KEY else 'open-meteo'}, "
+            f"api_key_present={bool(OPENWEATHER_API_KEY)}, "
+            f"timeout={REQUEST_TIMEOUT_SECONDS}s",
+        )
+
     if OPENWEATHER_API_KEY:
         base_url = "https://api.openweathermap.org/data/2.5/forecast"
         params = {
@@ -167,7 +178,7 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
         except ReadTimeout as error:
             if attempt == 0:
                 print(
-                f"[fetch_openmeteo] Read timeout (forecast, {provider}) for "
+                    f"[fetch_openmeteo] Read timeout (forecast, {provider}) for "
                     f"{pt.get('region_code')} / {pt.get('city')}, sleeping and retrying once...",
                 )
                 time.sleep(5.0)
@@ -182,12 +193,17 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
             status = getattr(getattr(error, "response", None), "status_code", None)
             if status == 429 and attempt == 0:
                 print(
-                f"[fetch_openmeteo] 429 (forecast, {provider}) for "
+                    f"[fetch_openmeteo] 429 (forecast, {provider}) for "
                     f"{pt.get('region_code')} / {pt.get('city')}, sleeping and retrying once...",
                 )
                 time.sleep(3.0)
                 continue
 
+            if WEATHER_DEBUG:
+                print(
+                    f"[fetch_openmeteo] RequestException (forecast, {provider}) for "
+                    f"{pt.get('region_code')} / {pt.get('city')}: status={status}, error={error}",
+                )
             print(
                 f"[fetch_openmeteo] Skipping forecast (forecast, {provider}) for "
                 f"{pt.get('region_code')} / {pt.get('city')} due to error: {error}",
