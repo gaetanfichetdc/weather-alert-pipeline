@@ -18,19 +18,18 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      # Temporary: confirm which GitHub user the WEBSITE_REPO_TOKEN belongs to.
-      # This helps explain why Vercel sees rhoggs-bot-test-account.
-      - name: Debug GitHub user for WEBSITE_REPO_TOKEN
-        env:
-          WEBSITE_REPO_TOKEN: ${{ secrets.WEBSITE_REPO_TOKEN }}
-        run: |
-          echo "GitHub user for WEBSITE_REPO_TOKEN:"
-          curl -s -H "Authorization: Bearer ${WEBSITE_REPO_TOKEN}" https://api.github.com/user
 
       - name: Run weather pipeline
         env:
@@ -83,12 +82,6 @@ jobs:
         env:
           WEBSITE_REPO_TOKEN: ${{ secrets.WEBSITE_REPO_TOKEN }}
         run: |
-          # Set author identity for this repo; use the same name/email
-          # as your normal Git commits so Vercel can match the author
-          # to your GitHub account.
-          git config --global user.name "gaetanfichetdc"
-          git config --global user.email "gaetan.fichetdc.pro@gmail.com"
-
           git add public/projects/weather-alerts/regions_daily.json \
                   public/projects/weather-alerts/alerts.json \
                   public/projects/weather-alerts/region_points_admin1.json \
@@ -99,7 +92,11 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update weather alerts JSON from pipeline"
+          # Force the commit author to your normal Git identity so that
+          # Vercel can match the email address to your GitHub account.
+          git -c user.name="gaetanfichetdc" \
+              -c user.email="gaetan.fichetdc.pro@gmail.com" \
+              commit -m "Update weather alerts JSON from pipeline"
 
           git remote set-url origin \
             https://x-access-token:${WEBSITE_REPO_TOKEN}@github.com/gaetanfichetdc/website.git
