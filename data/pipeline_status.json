@@ -1,6 +1,6 @@
 {
-  "started_at_utc": "2025-12-10T15:09:39+00:00",
-  "completed_at_utc": "2025-12-10T15:09:40+00:00",
+  "started_at_utc": "2025-12-11T07:57:18+00:00",
+  "completed_at_utc": "2025-12-11T08:01:15+00:00",
   "history_days": 180,
   "countries": [
     "DE",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 88,
   "rows_count": 15840,
-  "alerts_count": 1650,
-  "data_start_date": "2025-06-13",
-  "data_end_date": "2025-12-09"
+  "alerts_count": 1646,
+  "data_start_date": "2025-06-14",
+  "data_end_date": "2025-12-10"
 }
