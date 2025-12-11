@@ -35,6 +35,7 @@ jobs:
         env:
           WEATHER_TOP_N_CITIES: '3'
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          WEATHER_DEBUG: '1'
         run: python -u -m src.run_pipeline
 
       - name: Commit updated pipeline data back to this repo
