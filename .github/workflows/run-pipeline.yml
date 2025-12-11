@@ -40,13 +40,13 @@ jobs:
 
       - name: Commit updated pipeline data back to this repo
         env:
-          WEBSITE_REPO_TOKEN: ${{ secrets.WEBSITE_REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Persist the rolling 180‑day history so future CI runs
           # only fetch truly new days instead of backfilling from
           # scratch on a fresh runner.
-          git config user.name "gaetanfichetdc"
-          git config user.email "gaetan.fichetdc.pro@gmail.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/daily_region_raw.json \
                   data/regions_daily.json \
@@ -57,8 +57,6 @@ jobs:
             echo "No pipeline data changes to commit"
           else
             git commit -m "Update pipeline JSON data [ci skip]"
-            git remote set-url origin \
-              https://x-access-token:${WEBSITE_REPO_TOKEN}@github.com/gaetanfichetdc/weather-alert-pipeline.git
             git push origin main
           fi
 
