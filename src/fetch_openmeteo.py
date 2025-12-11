@@ -16,7 +16,11 @@ REGION_POINTS: List[Dict[str, Any]] = json.loads(
 # Number of days of history to keep per location using the Open‑Meteo archive API.
 HISTORY_DAYS = 180
 
-REQUEST_TIMEOUT_SECONDS = 90
+# Allow CI to override network behaviour via env vars so GitHub Actions
+# runs fail fast instead of hanging for a long time when the API is slow.
+REQUEST_TIMEOUT_SECONDS = int(os.getenv("WEATHER_REQUEST_TIMEOUT_SECONDS", "90"))
+ARCHIVE_SLEEP_SECONDS = float(os.getenv("WEATHER_ARCHIVE_SLEEP_SECONDS", "0.75"))
+FORECAST_SLEEP_SECONDS = float(os.getenv("WEATHER_FORECAST_SLEEP_SECONDS", "0.75"))
 
 
 def fetch_daily_for_point(pt: Dict[str, Any], start_date: str, end_date: str) -> List[Dict[str, Any]]:
@@ -47,7 +51,7 @@ def fetch_daily_for_point(pt: Dict[str, Any], start_date: str, end_date: str) ->
     for attempt in range(2):
         try:
             # Global throttle to avoid hitting Open‑Meteo per‑second limits.
-            time.sleep(0.75)
+            time.sleep(ARCHIVE_SLEEP_SECONDS)
             resp = requests.get(base_url, params=params, timeout=REQUEST_TIMEOUT_SECONDS)
             resp.raise_for_status()
             break
@@ -135,7 +139,7 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
 
     for attempt in range(2):
         try:
-            time.sleep(0.75)
+            time.sleep(FORECAST_SLEEP_SECONDS)
             resp = requests.get(base_url, params=params, timeout=REQUEST_TIMEOUT_SECONDS)
             resp.raise_for_status()
             break
