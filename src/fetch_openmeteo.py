@@ -1,9 +1,9 @@
 import json
 import os
 import time
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List
-from datetime import date, timedelta
 
 import requests
 from requests.exceptions import RequestException, ReadTimeout
@@ -16,11 +16,16 @@ REGION_POINTS: List[Dict[str, Any]] = json.loads(
 # Number of days of history to keep per location using the Open‑Meteo archive API.
 HISTORY_DAYS = 180
 
-# Allow CI to override network behaviour via env vars so GitHub Actions
-# runs fail fast instead of hanging for a long time when the API is slow.
+# Allow CI or local runs to tweak network behaviour via env vars.
 REQUEST_TIMEOUT_SECONDS = int(os.getenv("WEATHER_REQUEST_TIMEOUT_SECONDS", "90"))
 ARCHIVE_SLEEP_SECONDS = float(os.getenv("WEATHER_ARCHIVE_SLEEP_SECONDS", "0.75"))
 FORECAST_SLEEP_SECONDS = float(os.getenv("WEATHER_FORECAST_SLEEP_SECONDS", "0.75"))
+
+# Optional alternative forecast provider: OpenWeatherMap.
+# When OPENWEATHER_API_KEY is set, daily-mode forecast requests will use
+# the free 5‑day / 3‑hour forecast API instead of the Open‑Meteo forecast
+# endpoint.
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
 
 def fetch_daily_for_point(pt: Dict[str, Any], start_date: str, end_date: str) -> List[Dict[str, Any]]:
@@ -118,24 +123,40 @@ def fetch_daily_for_point(pt: Dict[str, Any], start_date: str, end_date: str) ->
 
 def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
-    Fetch a short *forecast* for a single point using the standard forecast
-    endpoint. We use this in the daily CI pipeline to grab just today and
-    tomorrow, keeping the number of API calls and payload sizes small.
+    Fetch a short *forecast* for a single point.
+
+    - If OPENWEATHER_API_KEY is set, use OpenWeatherMap's free 5‑day /
+      3‑hour forecast API and aggregate to daily values.
+    - Otherwise, fall back to the Open‑Meteo forecast endpoint.
+
+    In both cases we aim to keep just today + tomorrow so the daily CI
+    pipeline remains lightweight.
     """
-    base_url = "https://api.open-meteo.com/v1/forecast"
-    params = {
-        "latitude": pt["lat"],
-        "longitude": pt["lon"],
-        "daily": (
-            "temperature_2m_max,temperature_2m_min,"
-            "wind_speed_10m_max,precipitation_sum,"
-            "snowfall_sum"
-        ),
-        # We only care about today and tomorrow; Open‑Meteo will always
-        # include "today" as the first daily entry.
-        "forecast_days": 2,
-        "timezone": "Europe/Berlin",
-    }
+    if OPENWEATHER_API_KEY:
+        base_url = "https://api.openweathermap.org/data/2.5/forecast"
+        params = {
+            "lat": pt["lat"],
+            "lon": pt["lon"],
+            "units": "metric",
+            "appid": OPENWEATHER_API_KEY,
+        }
+        provider = "openweather-forecast"
+    else:
+        base_url = "https://api.open-meteo.com/v1/forecast"
+        params = {
+            "latitude": pt["lat"],
+            "longitude": pt["lon"],
+            "daily": (
+                "temperature_2m_max,temperature_2m_min,"
+                "wind_speed_10m_max,precipitation_sum,"
+                "snowfall_sum"
+            ),
+            # We only care about today and tomorrow; Open‑Meteo will always
+            # include "today" as the first daily entry.
+            "forecast_days": 2,
+            "timezone": "Europe/Berlin",
+        }
+        provider = "open-meteo"
 
     for attempt in range(2):
         try:
@@ -146,59 +167,126 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
         except ReadTimeout as error:
             if attempt == 0:
                 print(
-                    f"[fetch_openmeteo] Read timeout (forecast) for {pt.get('region_code')} / {pt.get('city')}, "
-                    "sleeping and retrying once...",
+                f"[fetch_openmeteo] Read timeout (forecast, {provider}) for "
+                    f"{pt.get('region_code')} / {pt.get('city')}, sleeping and retrying once...",
                 )
                 time.sleep(5.0)
                 continue
 
             print(
-                f"[fetch_openmeteo] Skipping forecast for {pt.get('region_code')} / {pt.get('city')} "
-                f"due to read timeout: {error}"
+                f"[fetch_openmeteo] Skipping forecast (forecast, {provider}) for "
+                f"{pt.get('region_code')} / {pt.get('city')} due to read timeout: {error}",
             )
             return []
         except RequestException as error:
             status = getattr(getattr(error, "response", None), "status_code", None)
             if status == 429 and attempt == 0:
                 print(
-                    f"[fetch_openmeteo] 429 (forecast) for {pt.get('region_code')} / {pt.get('city')}, "
-                    "sleeping and retrying once...",
+                f"[fetch_openmeteo] 429 (forecast, {provider}) for "
+                    f"{pt.get('region_code')} / {pt.get('city')}, sleeping and retrying once...",
                 )
                 time.sleep(3.0)
                 continue
 
             print(
-                f"[fetch_openmeteo] Skipping forecast for {pt.get('region_code')} / {pt.get('city')} "
-                f"due to error: {error}"
+                f"[fetch_openmeteo] Skipping forecast (forecast, {provider}) for "
+                f"{pt.get('region_code')} / {pt.get('city')} due to error: {error}",
             )
             return []
 
     data = resp.json()
 
-    dates = data["daily"]["time"]
-    tmax = data["daily"]["temperature_2m_max"]
-    tmin = data["daily"]["temperature_2m_min"]
-    wind = data["daily"]["wind_speed_10m_max"]
-    rain = data["daily"]["precipitation_sum"]
-    snow = data["daily"].get("snowfall_sum")
-
     rows: List[Dict[str, Any]] = []
-    for idx, (d, hi, lo, w, p) in enumerate(zip(dates, tmax, tmin, wind, rain)):
-        snow_mm = snow[idx] if snow is not None and idx < len(snow) else None
-        rows.append(
-            {
-                "date": d,
-                "country": pt["country"],
-                "region_id": pt["region_id"],
-                "region_code": pt["region_code"],
-                "city": pt["city"],
-                "tmax_c": hi,
-                "tmin_c": lo,
-                "wind_max_kmh": w,
-                "rain_mm": p,
-                "snow_mm": snow_mm,
-            },
-        )
+
+    if OPENWEATHER_API_KEY:
+        # OpenWeatherMap 5‑day / 3‑hour forecast: aggregate per calendar day.
+        #
+        # We keep just today and tomorrow, taking:
+        # - max of temp_max
+        # - min of temp_min
+        # - max wind speed
+        # - sum of rain and snow
+        forecast_list = data.get("list") or []
+        by_date: Dict[str, Dict[str, Any]] = {}
+
+        for entry in forecast_list:
+            dt = entry.get("dt")
+            if not isinstance(dt, (int, float)):
+                continue
+
+            date_iso = datetime.utcfromtimestamp(dt).date().isoformat()
+            main = entry.get("main") or {}
+            hi = main.get("temp_max")
+            lo = main.get("temp_min")
+            wind_info = entry.get("wind") or {}
+            wind_speed = wind_info.get("speed")
+
+            # Rain/snow volumes are per 3h step; sum them for the day.
+            rain_block = entry.get("rain") or {}
+            snow_block = entry.get("snow") or {}
+            rain_step = rain_block.get("3h") or 0.0
+            snow_step = snow_block.get("3h") or 0.0
+
+            # Require temperature and wind to be present.
+            if hi is None or lo is None or wind_speed is None:
+                continue
+
+            agg = by_date.setdefault(
+                date_iso,
+                {
+                    "tmax_c": hi,
+                    "tmin_c": lo,
+                    "wind_max_kmh": float(wind_speed) * 3.6,
+                    "rain_mm": 0.0,
+                    "snow_mm": 0.0,
+                },
+            )
+
+            agg["tmax_c"] = max(agg["tmax_c"], hi)
+            agg["tmin_c"] = min(agg["tmin_c"], lo)
+            agg["wind_max_kmh"] = max(agg["wind_max_kmh"], float(wind_speed) * 3.6)
+            agg["rain_mm"] += float(rain_step)
+            agg["snow_mm"] += float(snow_step)
+
+        for date_iso, agg in by_date.items():
+            rows.append(
+                {
+                    "date": date_iso,
+                    "country": pt["country"],
+                    "region_id": pt["region_id"],
+                    "region_code": pt["region_code"],
+                    "city": pt["city"],
+                    "tmax_c": agg["tmax_c"],
+                    "tmin_c": agg["tmin_c"],
+                    "wind_max_kmh": agg["wind_max_kmh"],
+                    "rain_mm": agg["rain_mm"],
+                    "snow_mm": agg["snow_mm"],
+                },
+            )
+    else:
+        dates = data["daily"]["time"]
+        tmax = data["daily"]["temperature_2m_max"]
+        tmin = data["daily"]["temperature_2m_min"]
+        wind = data["daily"]["wind_speed_10m_max"]
+        rain = data["daily"]["precipitation_sum"]
+        snow = data["daily"].get("snowfall_sum")
+
+        for idx, (d, hi, lo, w, p) in enumerate(zip(dates, tmax, tmin, wind, rain)):
+            snow_mm = snow[idx] if snow is not None and idx < len(snow) else None
+            rows.append(
+                {
+                    "date": d,
+                    "country": pt["country"],
+                    "region_id": pt["region_id"],
+                    "region_code": pt["region_code"],
+                    "city": pt["city"],
+                    "tmax_c": hi,
+                    "tmin_c": lo,
+                    "wind_max_kmh": w,
+                    "rain_mm": p,
+                    "snow_mm": snow_mm,
+                },
+            )
 
     return rows
 
