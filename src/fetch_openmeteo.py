@@ -135,14 +135,6 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
     In both cases we aim to keep just today + tomorrow so the daily CI
     pipeline remains lightweight.
     """
-    if WEATHER_DEBUG:
-        print(
-            "[fetch_openmeteo] fetch_forecast_for_point: "
-            f"provider={'openweather-forecast' if OPENWEATHER_API_KEY else 'open-meteo'}, "
-            f"api_key_present={bool(OPENWEATHER_API_KEY)}, "
-            f"timeout={REQUEST_TIMEOUT_SECONDS}s",
-        )
-
     if OPENWEATHER_API_KEY:
         base_url = "https://api.openweathermap.org/data/2.5/forecast"
         params = {
@@ -168,6 +160,15 @@ def fetch_forecast_for_point(pt: Dict[str, Any]) -> List[Dict[str, Any]]:
             "timezone": "Europe/Berlin",
         }
         provider = "open-meteo"
+
+    if WEATHER_DEBUG:
+        print(
+            "[fetch_openmeteo] forecast: "
+            f"provider={provider}, "
+            f"region={pt.get('region_code')}, "
+            f"city={pt.get('city')}, "
+            f"timeout={REQUEST_TIMEOUT_SECONDS}s",
+        )
 
     for attempt in range(2):
         try:
