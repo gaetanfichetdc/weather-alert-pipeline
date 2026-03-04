@@ -94,7 +94,7 @@ jobs:
           # Force the commit author to your normal Git identity so that
           # Vercel can match the email address to your GitHub account.
           git -c user.name="gaetanfichetdc" \
-              -c user.email="gaetan.fichetdc.pro@gmail.com" \
+              -c user.email="gaetan.fichetdc@proton.me" \
               commit -m "Update weather alerts JSON from pipeline"
 
           git remote set-url origin \
