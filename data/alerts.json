@@ -3223,16 +3223,6 @@
     "country": "ES",
     "region_code": "ES-51",
     "hazard": "heat",
-    "start_date": "2025-10-06",
-    "end_date": "2025-10-07",
-    "n_days": 2,
-    "max_level": 1,
-    "max_tmax_c": 31.7
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-51",
-    "hazard": "heat",
     "start_date": "2025-10-14",
     "end_date": "2025-10-15",
     "n_days": 2,
@@ -7523,16 +7513,6 @@
     "country": "DE",
     "region_code": "DE-02",
     "hazard": "rain",
-    "start_date": "2025-10-06",
-    "end_date": "2025-10-06",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 23.5
-  },
-  {
-    "country": "DE",
-    "region_code": "DE-02",
-    "hazard": "rain",
     "start_date": "2025-10-22",
     "end_date": "2025-10-23",
     "n_days": 2,
@@ -7748,16 +7728,6 @@
     "n_days": 2,
     "max_level": 1,
     "min_tmin_c": -2.61
-  },
-  {
-    "country": "DE",
-    "region_code": "DE-14",
-    "hazard": "rain",
-    "start_date": "2025-10-06",
-    "end_date": "2025-10-06",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 25.0
   },
   {
     "country": "DE",
@@ -9142,6 +9112,16 @@
   {
     "country": "DE",
     "region_code": "DE-10",
+    "hazard": "wind",
+    "start_date": "2026-04-05",
+    "end_date": "2026-04-05",
+    "n_days": 1,
+    "max_level": 1,
+    "max_wind_max_kmh": 51.948
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-10",
     "hazard": "rain",
     "start_date": "2025-10-23",
     "end_date": "2025-10-23",
@@ -9558,6 +9538,16 @@
     "n_days": 8,
     "max_level": 2,
     "min_tmin_c": -8.31
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-03",
+    "hazard": "wind",
+    "start_date": "2026-04-05",
+    "end_date": "2026-04-05",
+    "n_days": 1,
+    "max_level": 1,
+    "max_wind_max_kmh": 52.704
   },
   {
     "country": "DE",
@@ -14568,16 +14558,6 @@
     "n_days": 1,
     "max_level": 2,
     "max_rain_mm": 59.11999999999999
-  },
-  {
-    "country": "PT",
-    "region_code": "PT-10",
-    "hazard": "rain",
-    "start_date": "2025-10-06",
-    "end_date": "2025-10-06",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 20.1
   },
   {
     "country": "PT",
