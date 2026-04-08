@@ -3456,8 +3456,8 @@
     "start_date": "2026-04-08",
     "end_date": "2026-04-08",
     "n_days": 1,
-    "max_level": 3,
-    "max_rain_mm": 66.82000000000001
+    "max_level": 1,
+    "max_rain_mm": 27.729999999999997
   },
   {
     "country": "ES",
@@ -3743,11 +3743,11 @@
     "country": "ES",
     "region_code": "ES-31",
     "hazard": "rain",
-    "start_date": "2025-10-10",
+    "start_date": "2025-10-11",
     "end_date": "2025-10-11",
-    "n_days": 2,
-    "max_level": 2,
-    "max_rain_mm": 55.199999999999996
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 25.400000000000002
   },
   {
     "country": "ES",
@@ -3943,11 +3943,11 @@
     "country": "ES",
     "region_code": "ES-60",
     "hazard": "rain",
-    "start_date": "2025-10-10",
+    "start_date": "2025-10-11",
     "end_date": "2025-10-11",
-    "n_days": 2,
-    "max_level": 3,
-    "max_rain_mm": 93.2
+    "n_days": 1,
+    "max_level": 2,
+    "max_rain_mm": 44.099999999999994
   },
   {
     "country": "ES",
@@ -4218,16 +4218,6 @@
     "n_days": 1,
     "max_level": 1,
     "max_rain_mm": 26.87
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-54",
-    "hazard": "rain",
-    "start_date": "2026-04-08",
-    "end_date": "2026-04-08",
-    "n_days": 1,
-    "max_level": 2,
-    "max_rain_mm": 46.29000000000001
   },
   {
     "country": "ES",
@@ -6718,6 +6708,16 @@
     "n_days": 1,
     "max_level": 1,
     "max_rain_mm": 31.34
+  },
+  {
+    "country": "ES",
+    "region_code": "ES-CE",
+    "hazard": "rain",
+    "start_date": "2026-04-08",
+    "end_date": "2026-04-08",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 31.240000000000002
   },
   {
     "country": "DE",
