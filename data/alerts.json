@@ -3743,16 +3743,6 @@
     "country": "ES",
     "region_code": "ES-31",
     "hazard": "rain",
-    "start_date": "2025-10-11",
-    "end_date": "2025-10-11",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 25.400000000000002
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-31",
-    "hazard": "rain",
     "start_date": "2025-12-14",
     "end_date": "2025-12-14",
     "n_days": 1,
@@ -3938,16 +3928,6 @@
     "n_days": 4,
     "max_level": 1,
     "max_wind_max_kmh": 65.7
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-60",
-    "hazard": "rain",
-    "start_date": "2025-10-11",
-    "end_date": "2025-10-11",
-    "n_days": 1,
-    "max_level": 2,
-    "max_rain_mm": 44.099999999999994
   },
   {
     "country": "ES",
@@ -4328,16 +4308,6 @@
     "n_days": 1,
     "max_level": 1,
     "max_wind_max_kmh": 53.712
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-07",
-    "hazard": "rain",
-    "start_date": "2025-10-11",
-    "end_date": "2025-10-11",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 34.8
   },
   {
     "country": "ES",
@@ -7212,6 +7182,16 @@
   {
     "country": "DE",
     "region_code": "DE-07",
+    "hazard": "rain",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 21.88
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-07",
     "hazard": "snow",
     "start_date": "2026-01-07",
     "end_date": "2026-01-07",
@@ -8142,6 +8122,16 @@
   {
     "country": "DE",
     "region_code": "DE-06",
+    "hazard": "rain",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 22.759999999999998
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-06",
     "hazard": "snow",
     "start_date": "2026-01-01",
     "end_date": "2026-01-01",
@@ -8648,6 +8638,16 @@
     "n_days": 1,
     "max_level": 1,
     "max_rain_mm": 35.42
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-04",
+    "hazard": "rain",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 26.09
   },
   {
     "country": "DE",
@@ -9202,6 +9202,16 @@
   {
     "country": "DE",
     "region_code": "DE-10",
+    "hazard": "rain",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 20.56
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-10",
     "hazard": "snow",
     "start_date": "2026-01-26",
     "end_date": "2026-01-26",
@@ -9668,6 +9678,16 @@
     "n_days": 1,
     "max_level": 1,
     "max_rain_mm": 25.11
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-03",
+    "hazard": "rain",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-10",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 20.150000000000002
   },
   {
     "country": "DE",
