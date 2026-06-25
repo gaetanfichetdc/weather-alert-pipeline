@@ -14,8 +14,8 @@
     "region_code": "FR-11",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 3,
     "max_tmax_c": 41.08
   },
@@ -23,9 +23,9 @@
     "country": "FR",
     "region_code": "FR-11",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-29",
-    "n_days": 3,
+    "n_days": 2,
     "max_level": 1,
     "min_tmin_c": -2.92
   },
@@ -194,18 +194,18 @@
     "region_code": "FR-44",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
-    "max_tmax_c": 39.34
+    "max_tmax_c": 39.75
   },
   {
     "country": "FR",
     "region_code": "FR-44",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-07",
-    "n_days": 12,
+    "n_days": 11,
     "max_level": 2,
     "min_tmin_c": -7.37
   },
@@ -344,8 +344,8 @@
     "region_code": "FR-32",
     "hazard": "heat",
     "start_date": "2026-06-21",
-    "end_date": "2026-06-25",
-    "n_days": 5,
+    "end_date": "2026-06-26",
+    "n_days": 6,
     "max_level": 2,
     "max_tmax_c": 36.59
   },
@@ -353,11 +353,11 @@
     "country": "FR",
     "region_code": "FR-32",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-29",
-    "n_days": 3,
+    "n_days": 2,
     "max_level": 1,
-    "min_tmin_c": -2.39
+    "min_tmin_c": -0.56
   },
   {
     "country": "FR",
@@ -474,18 +474,18 @@
     "region_code": "FR-84",
     "hazard": "heat",
     "start_date": "2026-06-13",
-    "end_date": "2026-06-25",
-    "n_days": 13,
+    "end_date": "2026-06-26",
+    "n_days": 14,
     "max_level": 2,
-    "max_tmax_c": 37.67
+    "max_tmax_c": 38.5
   },
   {
     "country": "FR",
     "region_code": "FR-84",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 2,
     "min_tmin_c": -8.49
   },
@@ -784,8 +784,8 @@
     "region_code": "FR-93",
     "hazard": "heat",
     "start_date": "2026-06-19",
-    "end_date": "2026-06-25",
-    "n_days": 7,
+    "end_date": "2026-06-26",
+    "n_days": 8,
     "max_level": 1,
     "max_tmax_c": 34.16
   },
@@ -1044,8 +1044,8 @@
     "region_code": "FR-53",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 3,
     "max_tmax_c": 42.67
   },
@@ -1053,9 +1053,9 @@
     "country": "FR",
     "region_code": "FR-53",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-01",
-    "n_days": 6,
+    "n_days": 5,
     "max_level": 1,
     "min_tmin_c": -3.96
   },
@@ -1304,8 +1304,8 @@
     "region_code": "FR-75",
     "hazard": "heat",
     "start_date": "2026-06-12",
-    "end_date": "2026-06-25",
-    "n_days": 14,
+    "end_date": "2026-06-26",
+    "n_days": 15,
     "max_level": 3,
     "max_tmax_c": 43.9
   },
@@ -1313,9 +1313,9 @@
     "country": "FR",
     "region_code": "FR-75",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-07",
-    "n_days": 12,
+    "n_days": 11,
     "max_level": 2,
     "min_tmin_c": -6.79
   },
@@ -1474,8 +1474,8 @@
     "region_code": "FR-24",
     "hazard": "heat",
     "start_date": "2026-06-12",
-    "end_date": "2026-06-25",
-    "n_days": 14,
+    "end_date": "2026-06-26",
+    "n_days": 15,
     "max_level": 3,
     "max_tmax_c": 42.55
   },
@@ -1483,9 +1483,9 @@
     "country": "FR",
     "region_code": "FR-24",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-07",
-    "n_days": 12,
+    "n_days": 11,
     "max_level": 2,
     "min_tmin_c": -7.66
   },
@@ -1654,18 +1654,18 @@
     "region_code": "FR-27",
     "hazard": "heat",
     "start_date": "2026-06-16",
-    "end_date": "2026-06-25",
-    "n_days": 10,
+    "end_date": "2026-06-26",
+    "n_days": 11,
     "max_level": 2,
-    "max_tmax_c": 39.35
+    "max_tmax_c": 38.98
   },
   {
     "country": "FR",
     "region_code": "FR-27",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 3,
     "min_tmin_c": -10.08
   },
@@ -1894,8 +1894,8 @@
     "region_code": "FR-52",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 3,
     "max_tmax_c": 44.54
   },
@@ -1903,9 +1903,9 @@
     "country": "FR",
     "region_code": "FR-52",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-29",
-    "n_days": 3,
+    "n_days": 2,
     "max_level": 1,
     "min_tmin_c": -2.12
   },
@@ -2054,18 +2054,18 @@
     "region_code": "FR-28",
     "hazard": "heat",
     "start_date": "2026-06-21",
-    "end_date": "2026-06-25",
-    "n_days": 5,
+    "end_date": "2026-06-26",
+    "n_days": 6,
     "max_level": 3,
-    "max_tmax_c": 41.11
+    "max_tmax_c": 40.62
   },
   {
     "country": "FR",
     "region_code": "FR-28",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-29",
-    "n_days": 3,
+    "n_days": 2,
     "max_level": 1,
     "min_tmin_c": -1.22
   },
@@ -2264,8 +2264,8 @@
     "region_code": "FR-76",
     "hazard": "heat",
     "start_date": "2026-06-12",
-    "end_date": "2026-06-25",
-    "n_days": 14,
+    "end_date": "2026-06-26",
+    "n_days": 15,
     "max_level": 3,
     "max_tmax_c": 41.46
   },
@@ -2434,8 +2434,8 @@
     "region_code": "FR-94",
     "hazard": "heat",
     "start_date": "2026-06-20",
-    "end_date": "2026-06-25",
-    "n_days": 6,
+    "end_date": "2026-06-26",
+    "n_days": 7,
     "max_level": 2,
     "max_tmax_c": 35.2
   },
@@ -2534,8 +2534,8 @@
     "region_code": "ES-51",
     "hazard": "heat",
     "start_date": "2026-05-20",
-    "end_date": "2026-06-25",
-    "n_days": 37,
+    "end_date": "2026-06-26",
+    "n_days": 38,
     "max_level": 3,
     "max_tmax_c": 43.18
   },
@@ -2588,16 +2588,6 @@
     "n_days": 1,
     "max_level": 1,
     "max_wind_max_kmh": 50.832
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-51",
-    "hazard": "rain",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-27",
-    "n_days": 1,
-    "max_level": 2,
-    "max_rain_mm": 42.29
   },
   {
     "country": "ES",
@@ -2714,8 +2704,8 @@
     "region_code": "ES-57",
     "hazard": "heat",
     "start_date": "2026-05-20",
-    "end_date": "2026-06-25",
-    "n_days": 37,
+    "end_date": "2026-06-26",
+    "n_days": 38,
     "max_level": 3,
     "max_tmax_c": 42.09
   },
@@ -2844,10 +2834,10 @@
     "region_code": "ES-31",
     "hazard": "heat",
     "start_date": "2026-06-20",
-    "end_date": "2026-06-25",
-    "n_days": 6,
+    "end_date": "2026-06-26",
+    "n_days": 7,
     "max_level": 2,
-    "max_tmax_c": 35.56
+    "max_tmax_c": 35.77
   },
   {
     "country": "ES",
@@ -3024,8 +3014,8 @@
     "region_code": "ES-60",
     "hazard": "heat",
     "start_date": "2026-06-20",
-    "end_date": "2026-06-25",
-    "n_days": 6,
+    "end_date": "2026-06-26",
+    "n_days": 7,
     "max_level": 1,
     "max_tmax_c": 34.48
   },
@@ -3124,8 +3114,8 @@
     "region_code": "ES-54",
     "hazard": "heat",
     "start_date": "2026-06-06",
-    "end_date": "2026-06-25",
-    "n_days": 20,
+    "end_date": "2026-06-26",
+    "n_days": 21,
     "max_level": 3,
     "max_tmax_c": 41.96
   },
@@ -3334,8 +3324,8 @@
     "region_code": "ES-07",
     "hazard": "heat",
     "start_date": "2026-06-13",
-    "end_date": "2026-06-25",
-    "n_days": 13,
+    "end_date": "2026-06-26",
+    "n_days": 14,
     "max_level": 2,
     "max_tmax_c": 35.9
   },
@@ -3654,8 +3644,8 @@
     "region_code": "ES-59",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 3,
     "max_tmax_c": 40.43
   },
@@ -3824,8 +3814,8 @@
     "region_code": "ES-52",
     "hazard": "heat",
     "start_date": "2026-06-12",
-    "end_date": "2026-06-25",
-    "n_days": 14,
+    "end_date": "2026-06-26",
+    "n_days": 15,
     "max_level": 3,
     "max_tmax_c": 40.65
   },
@@ -4044,8 +4034,8 @@
     "region_code": "ES-55",
     "hazard": "heat",
     "start_date": "2026-06-12",
-    "end_date": "2026-06-25",
-    "n_days": 14,
+    "end_date": "2026-06-26",
+    "n_days": 15,
     "max_level": 2,
     "max_tmax_c": 39.12
   },
@@ -4421,16 +4411,6 @@
   },
   {
     "country": "ES",
-    "region_code": "ES-58",
-    "hazard": "rain",
-    "start_date": "2026-06-25",
-    "end_date": "2026-06-25",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 20.470000000000002
-  },
-  {
-    "country": "ES",
     "region_code": "ES-29",
     "hazard": "heat",
     "start_date": "2026-05-21",
@@ -4444,8 +4424,8 @@
     "region_code": "ES-29",
     "hazard": "heat",
     "start_date": "2026-06-07",
-    "end_date": "2026-06-25",
-    "n_days": 19,
+    "end_date": "2026-06-26",
+    "n_days": 20,
     "max_level": 2,
     "max_tmax_c": 39.4
   },
@@ -4594,8 +4574,8 @@
     "region_code": "ES-56",
     "hazard": "heat",
     "start_date": "2026-06-21",
-    "end_date": "2026-06-25",
-    "n_days": 5,
+    "end_date": "2026-06-24",
+    "n_days": 4,
     "max_level": 2,
     "max_tmax_c": 35.32
   },
@@ -4618,16 +4598,6 @@
     "n_days": 1,
     "max_level": 1,
     "max_wind_max_kmh": 60.336000000000006
-  },
-  {
-    "country": "ES",
-    "region_code": "ES-56",
-    "hazard": "rain",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-27",
-    "n_days": 1,
-    "max_level": 2,
-    "max_rain_mm": 54.83
   },
   {
     "country": "ES",
@@ -4754,8 +4724,8 @@
     "region_code": "ES-32",
     "hazard": "heat",
     "start_date": "2026-06-13",
-    "end_date": "2026-06-25",
-    "n_days": 13,
+    "end_date": "2026-06-26",
+    "n_days": 14,
     "max_level": 3,
     "max_tmax_c": 40.33
   },
@@ -5284,8 +5254,8 @@
     "region_code": "ES-27",
     "hazard": "heat",
     "start_date": "2026-06-13",
-    "end_date": "2026-06-25",
-    "n_days": 13,
+    "end_date": "2026-06-26",
+    "n_days": 14,
     "max_level": 2,
     "max_tmax_c": 39.28
   },
@@ -5544,18 +5514,18 @@
     "region_code": "DE-13",
     "hazard": "heat",
     "start_date": "2026-06-24",
-    "end_date": "2026-06-25",
-    "n_days": 2,
+    "end_date": "2026-06-26",
+    "n_days": 3,
     "max_level": 1,
-    "max_tmax_c": 32.47
+    "max_tmax_c": 33.37
   },
   {
     "country": "DE",
     "region_code": "DE-13",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-12",
-    "n_days": 17,
+    "n_days": 16,
     "max_level": 3,
     "min_tmin_c": -14.81
   },
@@ -5724,18 +5694,18 @@
     "region_code": "DE-08",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 2,
-    "max_tmax_c": 37.48
+    "max_tmax_c": 38.44
   },
   {
     "country": "DE",
     "region_code": "DE-08",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 2,
     "min_tmin_c": -5.74
   },
@@ -5874,18 +5844,18 @@
     "region_code": "DE-07",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
-    "max_tmax_c": 35.81
+    "max_tmax_c": 38.9
   },
   {
     "country": "DE",
     "region_code": "DE-07",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-31",
-    "n_days": 5,
+    "n_days": 4,
     "max_level": 2,
     "min_tmin_c": -5.38
   },
@@ -6094,20 +6064,20 @@
     "region_code": "DE-11",
     "hazard": "heat",
     "start_date": "2026-06-24",
-    "end_date": "2026-06-25",
-    "n_days": 2,
+    "end_date": "2026-06-26",
+    "n_days": 3,
     "max_level": 1,
-    "max_tmax_c": 34.28
+    "max_tmax_c": 34.5
   },
   {
     "country": "DE",
     "region_code": "DE-11",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-31",
-    "n_days": 5,
+    "n_days": 4,
     "max_level": 1,
-    "min_tmin_c": -4.07
+    "min_tmin_c": -3.09
   },
   {
     "country": "DE",
@@ -6234,8 +6204,8 @@
     "region_code": "DE-02",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
     "max_tmax_c": 35.0
   },
@@ -6243,9 +6213,9 @@
     "country": "DE",
     "region_code": "DE-02",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 3,
     "min_tmin_c": -12.04
   },
@@ -6484,20 +6454,20 @@
     "region_code": "DE-14",
     "hazard": "heat",
     "start_date": "2026-06-24",
-    "end_date": "2026-06-25",
-    "n_days": 2,
+    "end_date": "2026-06-26",
+    "n_days": 3,
     "max_level": 1,
-    "max_tmax_c": 32.87
+    "max_tmax_c": 32.72
   },
   {
     "country": "DE",
     "region_code": "DE-14",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-31",
-    "n_days": 5,
-    "max_level": 2,
-    "min_tmin_c": -5.24
+    "n_days": 4,
+    "max_level": 1,
+    "min_tmin_c": -2.54
   },
   {
     "country": "DE",
@@ -6624,20 +6594,10 @@
     "region_code": "DE-16",
     "hazard": "heat",
     "start_date": "2026-06-24",
-    "end_date": "2026-06-25",
-    "n_days": 2,
+    "end_date": "2026-06-26",
+    "n_days": 3,
     "max_level": 1,
-    "max_tmax_c": 34.77
-  },
-  {
-    "country": "DE",
-    "region_code": "DE-16",
-    "hazard": "cold",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-28",
-    "n_days": 2,
-    "max_level": 1,
-    "min_tmin_c": -4.23
+    "max_tmax_c": 34.74
   },
   {
     "country": "DE",
@@ -6794,8 +6754,8 @@
     "region_code": "DE-06",
     "hazard": "heat",
     "start_date": "2026-06-23",
-    "end_date": "2026-06-25",
-    "n_days": 3,
+    "end_date": "2026-06-24",
+    "n_days": 2,
     "max_level": 1,
     "max_tmax_c": 32.7
   },
@@ -6803,11 +6763,11 @@
     "country": "DE",
     "region_code": "DE-06",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-31",
-    "n_days": 5,
-    "max_level": 2,
-    "min_tmin_c": -6.01
+    "n_days": 4,
+    "max_level": 1,
+    "min_tmin_c": -3.56
   },
   {
     "country": "DE",
@@ -6974,18 +6934,18 @@
     "region_code": "DE-05",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 2,
-    "max_tmax_c": 36.43
+    "max_tmax_c": 37.39
   },
   {
     "country": "DE",
     "region_code": "DE-05",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 3,
     "min_tmin_c": -10.27
   },
@@ -7142,10 +7102,20 @@
   {
     "country": "DE",
     "region_code": "DE-12",
+    "hazard": "heat",
+    "start_date": "2026-06-25",
+    "end_date": "2026-06-26",
+    "n_days": 2,
+    "max_level": 1,
+    "max_tmax_c": 31.71
+  },
+  {
+    "country": "DE",
+    "region_code": "DE-12",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-31",
-    "n_days": 5,
+    "n_days": 4,
     "max_level": 1,
     "min_tmin_c": -2.02
   },
@@ -7288,16 +7258,6 @@
     "n_days": 1,
     "max_level": 2,
     "max_snow_mm": 23.69
-  },
-  {
-    "country": "DE",
-    "region_code": "DE-04",
-    "hazard": "cold",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-28",
-    "n_days": 2,
-    "max_level": 1,
-    "min_tmin_c": -2.84
   },
   {
     "country": "DE",
@@ -7494,18 +7454,18 @@
     "region_code": "DE-01",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
-    "max_tmax_c": 37.42
+    "max_tmax_c": 38.29
   },
   {
     "country": "DE",
     "region_code": "DE-01",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 2,
     "min_tmin_c": -7.31
   },
@@ -7664,18 +7624,18 @@
     "region_code": "DE-15",
     "hazard": "heat",
     "start_date": "2026-06-24",
-    "end_date": "2026-06-25",
-    "n_days": 2,
+    "end_date": "2026-06-26",
+    "n_days": 3,
     "max_level": 1,
-    "max_tmax_c": 32.32
+    "max_tmax_c": 32.24
   },
   {
     "country": "DE",
     "region_code": "DE-15",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-12",
-    "n_days": 17,
+    "n_days": 16,
     "max_level": 3,
     "min_tmin_c": -11.74
   },
@@ -7823,9 +7783,9 @@
     "country": "DE",
     "region_code": "DE-10",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-30",
-    "n_days": 4,
+    "n_days": 3,
     "max_level": 1,
     "min_tmin_c": -1.8
   },
@@ -7934,18 +7894,18 @@
     "region_code": "DE-09",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
-    "max_tmax_c": 37.25
+    "max_tmax_c": 37.62
   },
   {
     "country": "DE",
     "region_code": "DE-09",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-08",
-    "n_days": 13,
+    "n_days": 12,
     "max_level": 2,
     "min_tmin_c": -6.53
   },
@@ -8163,16 +8123,6 @@
     "country": "DE",
     "region_code": "DE-03",
     "hazard": "cold",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-28",
-    "n_days": 2,
-    "max_level": 1,
-    "min_tmin_c": -2.16
-  },
-  {
-    "country": "DE",
-    "region_code": "DE-03",
-    "hazard": "cold",
     "start_date": "2026-01-02",
     "end_date": "2026-01-12",
     "n_days": 11,
@@ -8354,10 +8304,10 @@
     "region_code": "IT-15",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 1,
-    "max_tmax_c": 32.42
+    "max_tmax_c": 34.96
   },
   {
     "country": "IT",
@@ -8544,8 +8494,8 @@
     "region_code": "IT-03",
     "hazard": "heat",
     "start_date": "2026-06-21",
-    "end_date": "2026-06-24",
-    "n_days": 4,
+    "end_date": "2026-06-26",
+    "n_days": 6,
     "max_level": 1,
     "max_tmax_c": 31.85
   },
@@ -8727,7 +8677,7 @@
     "end_date": "2026-06-25",
     "n_days": 1,
     "max_level": 1,
-    "max_rain_mm": 20.12
+    "max_rain_mm": 24.95
   },
   {
     "country": "IT",
@@ -8744,8 +8694,8 @@
     "region_code": "IT-14",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
     "max_tmax_c": 36.09
   },
@@ -8904,8 +8854,8 @@
     "region_code": "IT-13",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 2,
     "max_tmax_c": 36.84
   },
@@ -9064,8 +9014,8 @@
     "region_code": "IT-05",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 2,
     "max_tmax_c": 37.09
   },
@@ -9194,8 +9144,8 @@
     "region_code": "IT-04",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 2,
     "max_tmax_c": 37.86
   },
@@ -9404,8 +9354,8 @@
     "region_code": "IT-09",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 2,
     "max_tmax_c": 35.49
   },
@@ -9564,8 +9514,8 @@
     "region_code": "IT-20",
     "hazard": "heat",
     "start_date": "2026-06-19",
-    "end_date": "2026-06-25",
-    "n_days": 7,
+    "end_date": "2026-06-26",
+    "n_days": 8,
     "max_level": 2,
     "max_tmax_c": 37.37
   },
@@ -9734,8 +9684,8 @@
     "region_code": "IT-07",
     "hazard": "heat",
     "start_date": "2026-06-16",
-    "end_date": "2026-06-25",
-    "n_days": 10,
+    "end_date": "2026-06-26",
+    "n_days": 11,
     "max_level": 2,
     "max_tmax_c": 37.39
   },
@@ -9874,8 +9824,8 @@
     "region_code": "IT-16",
     "hazard": "heat",
     "start_date": "2026-06-15",
-    "end_date": "2026-06-25",
-    "n_days": 11,
+    "end_date": "2026-06-26",
+    "n_days": 12,
     "max_level": 3,
     "max_tmax_c": 40.56
   },
@@ -10084,8 +10034,8 @@
     "region_code": "IT-12",
     "hazard": "heat",
     "start_date": "2026-06-19",
-    "end_date": "2026-06-25",
-    "n_days": 7,
+    "end_date": "2026-06-26",
+    "n_days": 8,
     "max_level": 2,
     "max_tmax_c": 35.23
   },
@@ -10224,8 +10174,8 @@
     "region_code": "IT-08",
     "hazard": "heat",
     "start_date": "2026-06-20",
-    "end_date": "2026-06-25",
-    "n_days": 6,
+    "end_date": "2026-06-26",
+    "n_days": 7,
     "max_level": 2,
     "max_tmax_c": 36.02
   },
@@ -10354,10 +10304,10 @@
     "region_code": "IT-01",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 1,
-    "max_tmax_c": 32.71
+    "max_tmax_c": 33.3
   },
   {
     "country": "IT",
@@ -10504,8 +10454,8 @@
     "region_code": "IT-06",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 2,
     "max_tmax_c": 35.73
   },
@@ -10724,8 +10674,8 @@
     "region_code": "IT-17",
     "hazard": "heat",
     "start_date": "2026-06-20",
-    "end_date": "2026-06-25",
-    "n_days": 6,
+    "end_date": "2026-06-24",
+    "n_days": 5,
     "max_level": 2,
     "max_tmax_c": 35.89
   },
@@ -10733,9 +10683,9 @@
     "country": "IT",
     "region_code": "IT-17",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-14",
-    "n_days": 19,
+    "n_days": 18,
     "max_level": 2,
     "min_tmin_c": -9.28
   },
@@ -10944,8 +10894,8 @@
     "region_code": "IT-10",
     "hazard": "heat",
     "start_date": "2026-06-18",
-    "end_date": "2026-06-25",
-    "n_days": 8,
+    "end_date": "2026-06-26",
+    "n_days": 9,
     "max_level": 1,
     "max_tmax_c": 33.17
   },
@@ -11154,10 +11104,10 @@
     "region_code": "IT-18",
     "hazard": "heat",
     "start_date": "2026-06-16",
-    "end_date": "2026-06-25",
-    "n_days": 10,
+    "end_date": "2026-06-26",
+    "n_days": 11,
     "max_level": 2,
-    "max_tmax_c": 36.87
+    "max_tmax_c": 37.65
   },
   {
     "country": "IT",
@@ -11392,6 +11342,16 @@
   {
     "country": "IT",
     "region_code": "IT-11",
+    "hazard": "heat",
+    "start_date": "2026-06-25",
+    "end_date": "2026-06-26",
+    "n_days": 2,
+    "max_level": 1,
+    "max_tmax_c": 32.61
+  },
+  {
+    "country": "IT",
+    "region_code": "IT-11",
     "hazard": "cold",
     "start_date": "2025-12-29",
     "end_date": "2026-01-01",
@@ -11614,8 +11574,8 @@
     "region_code": "IT-02",
     "hazard": "heat",
     "start_date": "2026-06-17",
-    "end_date": "2026-06-25",
-    "n_days": 9,
+    "end_date": "2026-06-26",
+    "n_days": 10,
     "max_level": 1,
     "max_tmax_c": 34.0
   },
@@ -11713,9 +11673,9 @@
     "country": "IT",
     "region_code": "IT-19",
     "hazard": "cold",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2026-01-11",
-    "n_days": 16,
+    "n_days": 15,
     "max_level": 3,
     "min_tmin_c": -12.94
   },
@@ -11888,16 +11848,6 @@
     "n_days": 1,
     "max_level": 1,
     "max_wind_max_kmh": 50.04
-  },
-  {
-    "country": "PT",
-    "region_code": "PT-14",
-    "hazard": "rain",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-27",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 25.81
   },
   {
     "country": "PT",
@@ -12193,11 +12143,11 @@
     "country": "PT",
     "region_code": "PT-09",
     "hazard": "rain",
-    "start_date": "2025-12-27",
+    "start_date": "2025-12-28",
     "end_date": "2025-12-28",
-    "n_days": 2,
-    "max_level": 3,
-    "max_rain_mm": 70.19
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 35.06
   },
   {
     "country": "PT",
@@ -12348,16 +12298,6 @@
     "n_days": 1,
     "max_level": 1,
     "max_wind_max_kmh": 52.272
-  },
-  {
-    "country": "PT",
-    "region_code": "PT-19",
-    "hazard": "rain",
-    "start_date": "2025-12-27",
-    "end_date": "2025-12-27",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 25.13
   },
   {
     "country": "PT",
@@ -13481,16 +13421,6 @@
   },
   {
     "country": "PT",
-    "region_code": "PT-17",
-    "hazard": "rain",
-    "start_date": "2026-06-25",
-    "end_date": "2026-06-25",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 25.24
-  },
-  {
-    "country": "PT",
     "region_code": "PT-02",
     "hazard": "heat",
     "start_date": "2026-06-11",
@@ -13898,16 +13828,6 @@
     "n_days": 1,
     "max_level": 2,
     "max_rain_mm": 42.28
-  },
-  {
-    "country": "PT",
-    "region_code": "PT-20",
-    "hazard": "rain",
-    "start_date": "2026-06-25",
-    "end_date": "2026-06-25",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 33.019999999999996
   },
   {
     "country": "PT",
@@ -14458,16 +14378,6 @@
     "n_days": 1,
     "max_level": 2,
     "max_rain_mm": 51.96
-  },
-  {
-    "country": "PT",
-    "region_code": "PT-04",
-    "hazard": "rain",
-    "start_date": "2026-06-25",
-    "end_date": "2026-06-25",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 33.96
   },
   {
     "country": "PT",
