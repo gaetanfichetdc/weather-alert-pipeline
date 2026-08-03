@@ -1,6 +1,6 @@
 {
-  "started_at_utc": "2026-08-02T05:44:24+00:00",
-  "completed_at_utc": "2026-08-02T05:47:47+00:00",
+  "started_at_utc": "2026-08-03T06:07:16+00:00",
+  "completed_at_utc": "2026-08-03T06:10:37+00:00",
   "history_days": 180,
   "countries": [
     "DE",
@@ -11,7 +11,7 @@
   ],
   "regions_count": 88,
   "rows_count": 15928,
-  "alerts_count": 1223,
-  "data_start_date": "2026-02-04",
-  "data_end_date": "2026-08-03"
+  "alerts_count": 1213,
+  "data_start_date": "2026-02-05",
+  "data_end_date": "2026-08-04"
 }
