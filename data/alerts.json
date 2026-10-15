@@ -1594,8 +1594,8 @@
     "region_code": "ES-51",
     "hazard": "heat",
     "start_date": "2026-10-12",
-    "end_date": "2026-10-15",
-    "n_days": 4,
+    "end_date": "2026-10-16",
+    "n_days": 5,
     "max_level": 1,
     "max_tmax_c": 33.01
   },
