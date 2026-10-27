@@ -6243,16 +6243,6 @@
     "country": "IT",
     "region_code": "IT-13",
     "hazard": "rain",
-    "start_date": "2026-04-30",
-    "end_date": "2026-04-30",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 27.34
-  },
-  {
-    "country": "IT",
-    "region_code": "IT-13",
-    "hazard": "rain",
     "start_date": "2026-05-08",
     "end_date": "2026-05-08",
     "n_days": 1,
@@ -8578,16 +8568,6 @@
     "n_days": 45,
     "max_level": 2,
     "max_tmax_c": 37.52
-  },
-  {
-    "country": "IT",
-    "region_code": "IT-11",
-    "hazard": "rain",
-    "start_date": "2026-04-30",
-    "end_date": "2026-04-30",
-    "n_days": 1,
-    "max_level": 1,
-    "max_rain_mm": 35.68
   },
   {
     "country": "IT",
