@@ -2483,9 +2483,9 @@
     "country": "ES",
     "region_code": "ES-59",
     "hazard": "rain",
-    "start_date": "2026-05-01",
+    "start_date": "2026-05-02",
     "end_date": "2026-05-03",
-    "n_days": 3,
+    "n_days": 2,
     "max_level": 1,
     "max_rain_mm": 27.7
   },
@@ -11318,5 +11318,15 @@
     "n_days": 1,
     "max_level": 1,
     "max_rain_mm": 22.28
+  },
+  {
+    "country": "PT",
+    "region_code": "PT-23",
+    "hazard": "rain",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-29",
+    "n_days": 1,
+    "max_level": 1,
+    "max_rain_mm": 39.75
   }
 ]
